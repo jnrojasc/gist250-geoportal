@@ -1,0 +1,1042 @@
+{
+  "type": "FeatureCollection",
+  "name": "step5_tidal_correction",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S017_T042",
+        "x_raw_m": 28.11,
+        "x_mhw_m": 31.84,
+        "dx_tidal_m": 3.73,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0699,
+        "insitu_tan_beta": 0.0506
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3690695,
+            33.1766552
+          ],
+          [
+            -117.3691005,
+            33.1766339
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S017_T044",
+        "x_raw_m": 47.16,
+        "x_mhw_m": 49.47,
+        "dx_tidal_m": 2.31,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.1129,
+        "insitu_tan_beta": 0.2512
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3707888,
+            33.1777879
+          ],
+          [
+            -117.3708087,
+            33.1777755
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S017_T064",
+        "x_raw_m": 50.58,
+        "x_mhw_m": 57.71,
+        "dx_tidal_m": 7.13,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0366,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3831476,
+            33.1922483
+          ],
+          [
+            -117.3832044,
+            33.1922052
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S017_T065",
+        "x_raw_m": 49.54,
+        "x_mhw_m": 54.82,
+        "dx_tidal_m": 5.28,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0495,
+        "insitu_tan_beta": 0.0666
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3837603,
+            33.1929842
+          ],
+          [
+            -117.383802,
+            33.192952
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T001",
+        "x_raw_m": 51.15,
+        "x_mhw_m": 57.92,
+        "dx_tidal_m": 6.77,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0385,
+        "insitu_tan_beta": 0.0428
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.385597,
+            33.1951385
+          ],
+          [
+            -117.3856601,
+            33.1951082
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T002",
+        "x_raw_m": 39.83,
+        "x_mhw_m": 47.12,
+        "dx_tidal_m": 7.29,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0358,
+        "insitu_tan_beta": 0.0318
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3861478,
+            33.1959033
+          ],
+          [
+            -117.3862146,
+            33.1958693
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T003",
+        "x_raw_m": 52.51,
+        "x_mhw_m": 59.82,
+        "dx_tidal_m": 7.31,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0357,
+        "insitu_tan_beta": 0.0343
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3869961,
+            33.1964967
+          ],
+          [
+            -117.3870605,
+            33.1964591
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T005",
+        "x_raw_m": 34.6,
+        "x_mhw_m": 46.85,
+        "dx_tidal_m": 12.25,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0213,
+        "insitu_tan_beta": 0.0199
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.387913,
+            33.1981405
+          ],
+          [
+            -117.3880168,
+            33.1980728
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T006",
+        "x_raw_m": 63.61,
+        "x_mhw_m": 68.47,
+        "dx_tidal_m": 4.86,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0537,
+        "insitu_tan_beta": 0.0708
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3887801,
+            33.1986961
+          ],
+          [
+            -117.3888193,
+            33.1986672
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T008",
+        "x_raw_m": 7.65,
+        "x_mhw_m": 15.91,
+        "dx_tidal_m": 8.26,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0316,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3900245,
+            33.2001598
+          ],
+          [
+            -117.3900882,
+            33.2001079
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S018_T010",
+        "x_raw_m": 235.07,
+        "x_mhw_m": 242.15,
+        "dx_tidal_m": 7.08,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0369,
+        "insitu_tan_beta": 0.0272
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3910812,
+            33.2018121
+          ],
+          [
+            -117.3911341,
+            33.2017662
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S019_T001",
+        "x_raw_m": 108.26,
+        "x_mhw_m": 119.74,
+        "dx_tidal_m": 11.48,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0227,
+        "insitu_tan_beta": 0.0252
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3935546,
+            33.2035296
+          ],
+          [
+            -117.3936545,
+            33.203469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S019_T003",
+        "x_raw_m": 140.02,
+        "x_mhw_m": 150.99,
+        "dx_tidal_m": 10.97,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0238,
+        "insitu_tan_beta": 0.0271
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3950494,
+            33.2047482
+          ],
+          [
+            -117.3951314,
+            33.2046772
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S019_T004",
+        "x_raw_m": 144.67,
+        "x_mhw_m": 157.28,
+        "dx_tidal_m": 12.61,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0207,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.395733,
+            33.2054223
+          ],
+          [
+            -117.395821,
+            33.2053359
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-02-10",
+        "transect_id": "CA_S019_T005",
+        "x_raw_m": 113.63,
+        "x_mhw_m": 123.79,
+        "dx_tidal_m": 10.16,
+        "z_tide_m": 1.605,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0257,
+        "insitu_tan_beta": 0.0293
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.396436,
+            33.2061028
+          ],
+          [
+            -117.3965041,
+            33.2060313
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T040",
+        "x_raw_m": 9.37,
+        "x_mhw_m": -5.94,
+        "dx_tidal_m": -15.31,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0932,
+        "insitu_tan_beta": 0.1168
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3678816,
+            33.1751584
+          ],
+          [
+            -117.3677434,
+            33.175233
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T042",
+        "x_raw_m": 56.97,
+        "x_mhw_m": 36.54,
+        "dx_tidal_m": -20.43,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0699,
+        "insitu_tan_beta": 0.09
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.369309,
+            33.1764903
+          ],
+          [
+            -117.3691395,
+            33.176607
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T044",
+        "x_raw_m": 11.87,
+        "x_mhw_m": -0.78,
+        "dx_tidal_m": -12.65,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.1129,
+        "insitu_tan_beta": 0.1359
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3704837,
+            33.1779763
+          ],
+          [
+            -117.3703744,
+            33.1780439
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T049",
+        "x_raw_m": 12.03,
+        "x_mhw_m": 4.89,
+        "dx_tidal_m": -7.14,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.2,
+        "insitu_tan_beta": 0.292
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3735671,
+            33.1815949
+          ],
+          [
+            -117.3735048,
+            33.1816323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T050",
+        "x_raw_m": 13.37,
+        "x_mhw_m": 5.07,
+        "dx_tidal_m": -8.3,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.172,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3742238,
+            33.1822948
+          ],
+          [
+            -117.3741518,
+            33.1823389
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T053",
+        "x_raw_m": 5.59,
+        "x_mhw_m": -33.11,
+        "dx_tidal_m": -38.7,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0369,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3760944,
+            33.184454
+          ],
+          [
+            -117.375762,
+            33.1846631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T056",
+        "x_raw_m": 16.11,
+        "x_mhw_m": -22.59,
+        "dx_tidal_m": -38.7,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0369,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3780339,
+            33.1865711
+          ],
+          [
+            -117.377699,
+            33.1867773
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T057",
+        "x_raw_m": 25.01,
+        "x_mhw_m": -13.69,
+        "dx_tidal_m": -38.7,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0369,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3787131,
+            33.1872578
+          ],
+          [
+            -117.3783764,
+            33.1874621
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T058",
+        "x_raw_m": 13.69,
+        "x_mhw_m": -8.5,
+        "dx_tidal_m": -22.19,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0644,
+        "insitu_tan_beta": 0.0815
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3792248,
+            33.1880455
+          ],
+          [
+            -117.379032,
+            33.1881628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T061",
+        "x_raw_m": 31.11,
+        "x_mhw_m": -7.18,
+        "dx_tidal_m": -38.29,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0373,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3811722,
+            33.1901536
+          ],
+          [
+            -117.3808517,
+            33.1903696
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T062",
+        "x_raw_m": 41.98,
+        "x_mhw_m": 20.7,
+        "dx_tidal_m": -21.28,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0671,
+        "insitu_tan_beta": 0.0956
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3818566,
+            33.1908318
+          ],
+          [
+            -117.381682,
+            33.1909554
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T063",
+        "x_raw_m": 98.41,
+        "x_mhw_m": 50.33,
+        "dx_tidal_m": -48.08,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0297,
+        "insitu_tan_beta": 0.0243
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3829134,
+            33.1912325
+          ],
+          [
+            -117.3825271,
+            33.1915199
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T064",
+        "x_raw_m": 54.63,
+        "x_mhw_m": 15.61,
+        "dx_tidal_m": -39.02,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0366,
+        "insitu_tan_beta": 0.0366
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3831799,
+            33.1922238
+          ],
+          [
+            -117.3828688,
+            33.1924594
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S017_T065",
+        "x_raw_m": 93.43,
+        "x_mhw_m": 64.58,
+        "dx_tidal_m": -28.85,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0495,
+        "insitu_tan_beta": 0.0519
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3841074,
+            33.1927167
+          ],
+          [
+            -117.3838792,
+            33.1928926
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T001",
+        "x_raw_m": 92.32,
+        "x_mhw_m": 55.23,
+        "dx_tidal_m": -37.09,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0385,
+        "insitu_tan_beta": 0.0532
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3859806,
+            33.1949545
+          ],
+          [
+            -117.385635,
+            33.1951203
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T002",
+        "x_raw_m": 99.39,
+        "x_mhw_m": 59.5,
+        "dx_tidal_m": -39.89,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0358,
+        "insitu_tan_beta": 0.0484
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3866943,
+            33.1956249
+          ],
+          [
+            -117.3863282,
+            33.1958114
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T003",
+        "x_raw_m": 88.16,
+        "x_mhw_m": 48.16,
+        "dx_tidal_m": -40.0,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0357,
+        "insitu_tan_beta": 0.0419
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3873101,
+            33.1963131
+          ],
+          [
+            -117.3869578,
+            33.1965191
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T004",
+        "x_raw_m": 106.36,
+        "x_mhw_m": 67.39,
+        "dx_tidal_m": -38.97,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0367,
+        "insitu_tan_beta": 0.0396
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3879237,
+            33.1970178
+          ],
+          [
+            -117.3875889,
+            33.1972284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T005",
+        "x_raw_m": 82.41,
+        "x_mhw_m": 15.37,
+        "dx_tidal_m": -67.04,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0213,
+        "insitu_tan_beta": 0.0594
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3883182,
+            33.1978761
+          ],
+          [
+            -117.38775,
+            33.1982469
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T006",
+        "x_raw_m": 80.01,
+        "x_mhw_m": 53.39,
+        "dx_tidal_m": -26.62,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0537,
+        "insitu_tan_beta": 0.039
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3889124,
+            33.1985986
+          ],
+          [
+            -117.3886976,
+            33.1987568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T008",
+        "x_raw_m": 13.89,
+        "x_mhw_m": -31.3,
+        "dx_tidal_m": -45.19,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0316,
+        "insitu_tan_beta": null
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3900726,
+            33.2001206
+          ],
+          [
+            -117.3897245,
+            33.2004043
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "feature_kind": "tidal_shift_vector",
+        "sat_date": "2024-04-02",
+        "transect_id": "CA_S018_T010",
+        "x_raw_m": 341.24,
+        "x_mhw_m": 302.54,
+        "dx_tidal_m": -38.7,
+        "z_tide_m": -0.084,
+        "z_mhw_m": 1.344,
+        "tan_beta": 0.0369,
+        "insitu_tan_beta": 0.007
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3918737,
+            33.2011242
+          ],
+          [
+            -117.3915848,
+            33.2013749
+          ]
+        ]
+      }
+    }
+  ]
+}

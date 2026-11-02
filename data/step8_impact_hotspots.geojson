@@ -1,0 +1,720 @@
+{
+  "type": "FeatureCollection",
+  "name": "step8_impact_hotspots",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T031",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 9.8,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3622048,
+          33.16873263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T032",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 9.6,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3628141,
+          33.16946944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T033",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 10.4,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3634395,
+          33.17018952
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T034",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 10.8,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3640496,
+          33.17091486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T035",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 11.5,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.36465970000002,
+          33.17164716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T037",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 0.01,
+        "winter_excursion_m": 0.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3659437,
+          33.17306875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T038",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -3.46,
+        "winter_excursion_m": 3.46,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3665681,
+          33.17377822000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T040",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -5.94,
+        "winter_excursion_m": 26.56,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.367797,
+          33.1752041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T044",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -4.94,
+        "winter_excursion_m": 54.41,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3703811,
+          33.17803972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T045",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 1.12,
+        "winter_excursion_m": 3.03,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.370983,
+          33.17877105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T047",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 2.71,
+        "winter_excursion_m": 0.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3722341,
+          33.18020353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T048",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 0.08,
+        "winter_excursion_m": 0.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3728776,
+          33.18091263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T049",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 0.18,
+        "winter_excursion_m": 14.73,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3734621,
+          33.18165789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T050",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -3.11,
+        "winter_excursion_m": 8.18,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.37410789999998,
+          33.18236582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T052",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 0.0,
+        "winter_excursion_m": 0.05,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3753843,
+          33.18378786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T053",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -34.86,
+        "winter_excursion_m": 34.9,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3760464,
+          33.18448416
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T054",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 9.0,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3766639,
+          33.18520814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T055",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 0.2,
+        "winter_excursion_m": 15.0,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3773444,
+          33.18589197
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T056",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -22.62,
+        "winter_excursion_m": 39.89,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.37789450000001,
+          33.18665692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T057",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -30.0,
+        "winter_excursion_m": 31.24,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3784955,
+          33.187389809999985
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T058",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -13.39,
+        "winter_excursion_m": 54.64,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3791059,
+          33.18811788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T059",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -1.87,
+        "winter_excursion_m": 8.97,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.37971320000001,
+          33.18885102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T060",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -15.03,
+        "winter_excursion_m": 25.12,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3803017,
+          33.1895987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T061",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -20.09,
+        "winter_excursion_m": 35.13,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3809118,
+          33.1903291
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T062",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 2.0,
+        "winter_excursion_m": 26.97,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3815122,
+          33.19107573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T063",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -20.56,
+        "winter_excursion_m": 70.89,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3821228,
+          33.19182075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T064",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 5.75,
+        "winter_excursion_m": 51.96,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3827444,
+          33.19255359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T065",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 16.36,
+        "winter_excursion_m": 48.22,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3833685,
+          33.19328617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T001",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 23.37,
+        "winter_excursion_m": 47.32,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3851204,
+          33.19536718
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T002",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 20.77,
+        "winter_excursion_m": 38.73,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3857823,
+          33.1960895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T003",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": 10.44,
+        "winter_excursion_m": 49.38,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.38653360000002,
+          33.19676712
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T004",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 26.59,
+        "winter_excursion_m": 40.8,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.38701010000001,
+          33.19759261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T005",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -2.39,
+        "winter_excursion_m": 66.74,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.38761970000002,
+          33.19833186
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T008",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -40.52,
+        "winter_excursion_m": 58.69,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3899656,
+          33.20020782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T009",
+        "risk_level": "CRITICAL (Back-beach Riprap / Zero Dry Beach)",
+        "min_winter_mhw_m": -5.52,
+        "winter_excursion_m": 24.27,
+        "recommendation": "Prioritize opportunistic post-storm PlanetScope tasking & sand nourishment monitoring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39056780000001,
+          33.20097040000001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T010",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 213.05,
+        "winter_excursion_m": 89.49,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3893265,
+          33.20333509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T011",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 178.78,
+        "winter_excursion_m": 96.13,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3901399,
+          33.20390919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T000",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 66.44,
+        "winter_excursion_m": 53.57,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39212829999998,
+          33.20329648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T001",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 84.97,
+        "winter_excursion_m": 59.67,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39261270000002,
+          33.20410098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T003",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 96.31,
+        "winter_excursion_m": 61.88,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3940023,
+          33.20565389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T004",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 98.55,
+        "winter_excursion_m": 69.56,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3947232,
+          33.20641332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T005",
+        "risk_level": "HIGH (Storm Excursion > 35 m)",
+        "min_winter_mhw_m": 83.25,
+        "winter_excursion_m": 60.92,
+        "recommendation": "Monitor bar-berm recovery cycle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.395674,
+          33.20690288
+        ]
+      }
+    }
+  ]
+}

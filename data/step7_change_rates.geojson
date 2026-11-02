@@ -1,0 +1,1436 @@
+{
+  "type": "FeatureCollection",
+  "name": "step7_change_rates",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T031",
+        "x_ref_m": 9.8,
+        "min_winter_mhw_m": 9.8,
+        "max_winter_mhw_m": 24.8,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3622048,
+            33.16873263
+          ],
+          [
+            -117.36485964780307,
+            33.16720387138941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T032",
+        "x_ref_m": 9.6,
+        "min_winter_mhw_m": 9.6,
+        "max_winter_mhw_m": 24.6,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3628141,
+            33.16946944
+          ],
+          [
+            -117.36538376618613,
+            33.16784095759849
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T033",
+        "x_ref_m": 10.4,
+        "min_winter_mhw_m": 10.4,
+        "max_winter_mhw_m": 25.4,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 7.6,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3634395,
+            33.17018952
+          ],
+          [
+            -117.36599559445047,
+            33.16854597728657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T034",
+        "x_ref_m": 10.8,
+        "min_winter_mhw_m": 10.8,
+        "max_winter_mhw_m": 25.8,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 10.2,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3640496,
+            33.17091486
+          ],
+          [
+            -117.36662938871221,
+            33.16929769006748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T035",
+        "x_ref_m": 11.5,
+        "min_winter_mhw_m": 11.5,
+        "max_winter_mhw_m": 26.5,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 10.7,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36465970000002,
+            33.17164716
+          ],
+          [
+            -117.36721239864438,
+            33.16999984312805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T036",
+        "x_ref_m": 13.9,
+        "min_winter_mhw_m": 13.9,
+        "max_winter_mhw_m": 28.9,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 11.6,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36530240000002,
+            33.17235999
+          ],
+          [
+            -117.36782402440778,
+            33.170679143188316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T037",
+        "x_ref_m": 12.8,
+        "min_winter_mhw_m": 0.01,
+        "max_winter_mhw_m": 0.01,
+        "winter_excursion_m": 0.0,
+        "usgs_historical_excursion_m": 11.6,
+        "net_anomaly_vs_usgs_m": -12.79,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3659437,
+            33.17306875
+          ],
+          [
+            -117.36846533220226,
+            33.17138789033604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T038",
+        "x_ref_m": 0.0,
+        "min_winter_mhw_m": -3.46,
+        "max_winter_mhw_m": 0.0,
+        "winter_excursion_m": 3.46,
+        "usgs_historical_excursion_m": 13.2,
+        "net_anomaly_vs_usgs_m": -1.15,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3665681,
+            33.17377822000001
+          ],
+          [
+            -117.3691445650418,
+            33.17215721425791
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T039",
+        "x_ref_m": 15.7,
+        "min_winter_mhw_m": 15.7,
+        "max_winter_mhw_m": 30.7,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 10.6,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3671861,
+            33.1744825
+          ],
+          [
+            -117.36985365988618,
+            33.17296926025538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T040",
+        "x_ref_m": 4.25,
+        "min_winter_mhw_m": -5.94,
+        "max_winter_mhw_m": 20.62,
+        "winter_excursion_m": 26.56,
+        "usgs_historical_excursion_m": 11.7,
+        "net_anomaly_vs_usgs_m": 1.25,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.367797,
+            33.1752041
+          ],
+          [
+            -117.37050470919365,
+            33.17374213131323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T041",
+        "x_ref_m": 23.0,
+        "min_winter_mhw_m": 23.0,
+        "max_winter_mhw_m": 38.0,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 11.5,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36842030000001,
+            33.17593836
+          ],
+          [
+            -117.37102345628591,
+            33.174347726049334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T042",
+        "x_ref_m": 32.42,
+        "min_winter_mhw_m": 22.33,
+        "max_winter_mhw_m": 39.67,
+        "winter_excursion_m": 17.34,
+        "usgs_historical_excursion_m": 9.3,
+        "net_anomaly_vs_usgs_m": -0.34,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3688362,
+            33.17681577
+          ],
+          [
+            -117.37134775467638,
+            33.17508689612955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T043",
+        "x_ref_m": 19.4,
+        "min_winter_mhw_m": 19.4,
+        "max_winter_mhw_m": 34.4,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 8.8,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3697739,
+            33.17731645
+          ],
+          [
+            -117.3723094724673,
+            33.17565035873458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T044",
+        "x_ref_m": 2.76,
+        "min_winter_mhw_m": -4.94,
+        "max_winter_mhw_m": 49.47,
+        "winter_excursion_m": 54.41,
+        "usgs_historical_excursion_m": 11.1,
+        "net_anomaly_vs_usgs_m": 3.23,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3703811,
+            33.17803972
+          ],
+          [
+            -117.37297434231628,
+            33.1764376052464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T045",
+        "x_ref_m": 4.15,
+        "min_winter_mhw_m": 1.12,
+        "max_winter_mhw_m": 4.15,
+        "winter_excursion_m": 3.03,
+        "usgs_historical_excursion_m": 11.5,
+        "net_anomaly_vs_usgs_m": -1.52,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.370983,
+            33.17877105
+          ],
+          [
+            -117.37359277977222,
+            33.177188013911405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T046",
+        "x_ref_m": 25.3,
+        "min_winter_mhw_m": 25.3,
+        "max_winter_mhw_m": 40.3,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 12.3,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37161889999999,
+            33.17948115
+          ],
+          [
+            -117.37424825956425,
+            33.177921168898365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T047",
+        "x_ref_m": 24.3,
+        "min_winter_mhw_m": 2.71,
+        "max_winter_mhw_m": 2.71,
+        "winter_excursion_m": 0.0,
+        "usgs_historical_excursion_m": 11.6,
+        "net_anomaly_vs_usgs_m": -21.59,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3722341,
+            33.18020353
+          ],
+          [
+            -117.37488593797374,
+            33.17867066483306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T048",
+        "x_ref_m": 21.1,
+        "min_winter_mhw_m": 0.08,
+        "max_winter_mhw_m": 0.08,
+        "winter_excursion_m": 0.0,
+        "usgs_historical_excursion_m": 8.2,
+        "net_anomaly_vs_usgs_m": -21.02,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3728776,
+            33.18091263
+          ],
+          [
+            -117.37552626225586,
+            33.17937586159754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T049",
+        "x_ref_m": 1.27,
+        "min_winter_mhw_m": 0.18,
+        "max_winter_mhw_m": 14.91,
+        "winter_excursion_m": 14.73,
+        "usgs_historical_excursion_m": 7.7,
+        "net_anomaly_vs_usgs_m": 3.49,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3734621,
+            33.18165789
+          ],
+          [
+            -117.3760817413459,
+            33.18008631479424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T050",
+        "x_ref_m": 0.04,
+        "min_winter_mhw_m": -3.11,
+        "max_winter_mhw_m": 5.07,
+        "winter_excursion_m": 8.18,
+        "usgs_historical_excursion_m": 7.3,
+        "net_anomaly_vs_usgs_m": 0.57,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37410789999998,
+            33.18236582
+          ],
+          [
+            -117.37670783552598,
+            33.180771250010544
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T051",
+        "x_ref_m": 18.8,
+        "min_winter_mhw_m": 18.8,
+        "max_winter_mhw_m": 33.8,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3747359,
+            33.18308297
+          ],
+          [
+            -117.37733584506933,
+            33.181488387009246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T052",
+        "x_ref_m": 14.6,
+        "min_winter_mhw_m": 0.0,
+        "max_winter_mhw_m": 0.05,
+        "winter_excursion_m": 0.05,
+        "usgs_historical_excursion_m": 9.6,
+        "net_anomaly_vs_usgs_m": -14.58,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3753843,
+            33.18378786
+          ],
+          [
+            -117.37797761849978,
+            33.18218564195416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T053",
+        "x_ref_m": 0.04,
+        "min_winter_mhw_m": -34.86,
+        "max_winter_mhw_m": 0.04,
+        "winter_excursion_m": 34.9,
+        "usgs_historical_excursion_m": 9.3,
+        "net_anomaly_vs_usgs_m": -17.21,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3760464,
+            33.18448416
+          ],
+          [
+            -117.37862299991352,
+            33.182862959913095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T054",
+        "x_ref_m": 9.0,
+        "min_winter_mhw_m": 9.0,
+        "max_winter_mhw_m": 24.0,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 7.6,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3766639,
+            33.18520814
+          ],
+          [
+            -117.37923037897534,
+            33.18357560545202
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T055",
+        "x_ref_m": 0.2,
+        "min_winter_mhw_m": 0.2,
+        "max_winter_mhw_m": 15.2,
+        "winter_excursion_m": 15.0,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -5.0,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3773444,
+            33.18589197
+          ],
+          [
+            -117.37992101668374,
+            33.18427074329053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T056",
+        "x_ref_m": 0.14,
+        "min_winter_mhw_m": -22.62,
+        "max_winter_mhw_m": 17.27,
+        "winter_excursion_m": 39.89,
+        "usgs_historical_excursion_m": 7.1,
+        "net_anomaly_vs_usgs_m": -4.07,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37789450000001,
+            33.18665692
+          ],
+          [
+            -117.38049117814384,
+            33.185058458432444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T057",
+        "x_ref_m": 1.24,
+        "min_winter_mhw_m": -30.0,
+        "max_winter_mhw_m": 1.24,
+        "winter_excursion_m": 31.24,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -13.85,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3784955,
+            33.187389809999985
+          ],
+          [
+            -117.38110539705487,
+            33.18580661775555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T058",
+        "x_ref_m": 6.27,
+        "min_winter_mhw_m": -13.39,
+        "max_winter_mhw_m": 41.25,
+        "winter_excursion_m": 54.64,
+        "usgs_historical_excursion_m": 9.4,
+        "net_anomaly_vs_usgs_m": 0.53,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3791059,
+            33.18811788
+          ],
+          [
+            -117.38171251713128,
+            33.186530847383665
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T059",
+        "x_ref_m": 5.61,
+        "min_winter_mhw_m": -1.87,
+        "max_winter_mhw_m": 7.1,
+        "winter_excursion_m": 8.97,
+        "usgs_historical_excursion_m": 12.7,
+        "net_anomaly_vs_usgs_m": -2.49,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37971320000001,
+            33.18885102
+          ],
+          [
+            -117.3822763345673,
+            33.18721465926844
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T060",
+        "x_ref_m": 10.09,
+        "min_winter_mhw_m": -15.03,
+        "max_winter_mhw_m": 10.09,
+        "winter_excursion_m": 25.12,
+        "usgs_historical_excursion_m": 13.1,
+        "net_anomaly_vs_usgs_m": -9.02,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3803017,
+            33.1895987
+          ],
+          [
+            -117.3828165308284,
+            33.18791016127258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T061",
+        "x_ref_m": 14.7,
+        "min_winter_mhw_m": -20.09,
+        "max_winter_mhw_m": 15.04,
+        "winter_excursion_m": 35.13,
+        "usgs_historical_excursion_m": 12.7,
+        "net_anomaly_vs_usgs_m": -14.57,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3809118,
+            33.1903291
+          ],
+          [
+            -117.38342313085349,
+            33.18863686116372
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T062",
+        "x_ref_m": 20.04,
+        "min_winter_mhw_m": 2.0,
+        "max_winter_mhw_m": 28.97,
+        "winter_excursion_m": 26.97,
+        "usgs_historical_excursion_m": 15.5,
+        "net_anomaly_vs_usgs_m": -2.73,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3815122,
+            33.19107573
+          ],
+          [
+            -117.38397361706454,
+            33.189332394964225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T063",
+        "x_ref_m": 33.66,
+        "min_winter_mhw_m": -20.56,
+        "max_winter_mhw_m": 50.33,
+        "winter_excursion_m": 70.89,
+        "usgs_historical_excursion_m": 12.4,
+        "net_anomaly_vs_usgs_m": -15.9,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3821228,
+            33.19182075
+          ],
+          [
+            -117.38453283203962,
+            33.19002735988003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T064",
+        "x_ref_m": 27.42,
+        "min_winter_mhw_m": 5.75,
+        "max_winter_mhw_m": 57.71,
+        "winter_excursion_m": 51.96,
+        "usgs_historical_excursion_m": 13.5,
+        "net_anomaly_vs_usgs_m": -1.72,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3827444,
+            33.19255359
+          ],
+          [
+            -117.38517718268629,
+            33.19071118213241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T065",
+        "x_ref_m": 37.12,
+        "min_winter_mhw_m": 16.36,
+        "max_winter_mhw_m": 64.58,
+        "winter_excursion_m": 48.22,
+        "usgs_historical_excursion_m": 12.8,
+        "net_anomaly_vs_usgs_m": 2.65,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3833685,
+            33.19328617
+          ],
+          [
+            -117.38585324643225,
+            33.191371114815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T066",
+        "x_ref_m": 66.74,
+        "min_winter_mhw_m": 52.52,
+        "max_winter_mhw_m": 69.81,
+        "winter_excursion_m": 17.29,
+        "usgs_historical_excursion_m": 14.3,
+        "net_anomaly_vs_usgs_m": -3.72,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38398460000002,
+            33.19401925
+          ],
+          [
+            -117.38651126591503,
+            33.192071878456105
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T000",
+        "x_ref_m": 30.56,
+        "min_winter_mhw_m": 14.56,
+        "max_winter_mhw_m": 49.14,
+        "winter_excursion_m": 34.58,
+        "usgs_historical_excursion_m": 12.2,
+        "net_anomaly_vs_usgs_m": -1.61,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3846486,
+            33.19456737
+          ],
+          [
+            -117.38750543091099,
+            33.19319669364758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T001",
+        "x_ref_m": 42.83,
+        "min_winter_mhw_m": 23.37,
+        "max_winter_mhw_m": 70.69,
+        "winter_excursion_m": 47.32,
+        "usgs_historical_excursion_m": 8.8,
+        "net_anomaly_vs_usgs_m": 2.34,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3851204,
+            33.19536718
+          ],
+          [
+            -117.38812540048218,
+            33.19392540847882
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T002",
+        "x_ref_m": 38.09,
+        "min_winter_mhw_m": 20.77,
+        "max_winter_mhw_m": 59.5,
+        "winter_excursion_m": 38.73,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": 0.04,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3857823,
+            33.1960895
+          ],
+          [
+            -117.3886459701552,
+            33.19463068414848
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T003",
+        "x_ref_m": 24.63,
+        "min_winter_mhw_m": 10.44,
+        "max_winter_mhw_m": 59.82,
+        "winter_excursion_m": 49.38,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": 3.75,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38653360000002,
+            33.19676712
+          ],
+          [
+            -117.38917609739133,
+            33.19522229874374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T004",
+        "x_ref_m": 39.78,
+        "min_winter_mhw_m": 26.59,
+        "max_winter_mhw_m": 67.39,
+        "winter_excursion_m": 40.8,
+        "usgs_historical_excursion_m": 6.2,
+        "net_anomaly_vs_usgs_m": 1.88,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38701010000001,
+            33.19759261
+          ],
+          [
+            -117.3896882282309,
+            33.195907407929134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T005",
+        "x_ref_m": 62.66,
+        "min_winter_mhw_m": -2.39,
+        "max_winter_mhw_m": 64.35,
+        "winter_excursion_m": 66.74,
+        "usgs_historical_excursion_m": 0.0,
+        "net_anomaly_vs_usgs_m": -25.12,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38761970000002,
+            33.19833186
+          ],
+          [
+            -117.39029719819185,
+            33.19658493257061
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T006",
+        "x_ref_m": 50.47,
+        "min_winter_mhw_m": 37.69,
+        "max_winter_mhw_m": 68.47,
+        "winter_excursion_m": 30.78,
+        "usgs_historical_excursion_m": 14.3,
+        "net_anomaly_vs_usgs_m": -0.6,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3882667,
+            33.19907409000001
+          ],
+          [
+            -117.39083321071074,
+            33.19718424239057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T007",
+        "x_ref_m": 63.76,
+        "min_winter_mhw_m": 32.79,
+        "max_winter_mhw_m": 63.76,
+        "winter_excursion_m": 30.97,
+        "usgs_historical_excursion_m": 16.3,
+        "net_anomaly_vs_usgs_m": -11.36,
+        "regime": "Moderate Seasonal Retreat"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38891340000002,
+            33.19981588000001
+          ],
+          [
+            -117.3914102015617,
+            33.19782293831703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T008",
+        "x_ref_m": 0.06,
+        "min_winter_mhw_m": -40.52,
+        "max_winter_mhw_m": 18.17,
+        "winter_excursion_m": 58.69,
+        "usgs_historical_excursion_m": 21.6,
+        "net_anomaly_vs_usgs_m": -5.62,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3899656,
+            33.20020782
+          ],
+          [
+            -117.39227644279691,
+            33.19832421190236
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T009",
+        "x_ref_m": 18.75,
+        "min_winter_mhw_m": -5.52,
+        "max_winter_mhw_m": 18.75,
+        "winter_excursion_m": 24.27,
+        "usgs_historical_excursion_m": 28.3,
+        "net_anomaly_vs_usgs_m": -8.36,
+        "regime": "Severe Erosion / Narrow Pinch-Point"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39056780000001,
+            33.20097040000001
+          ],
+          [
+            -117.39283122129368,
+            33.19904650832965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T010",
+        "x_ref_m": 264.75,
+        "min_winter_mhw_m": 213.05,
+        "max_winter_mhw_m": 302.54,
+        "winter_excursion_m": 89.49,
+        "usgs_historical_excursion_m": 24.6,
+        "net_anomaly_vs_usgs_m": -13.5,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3893265,
+            33.20333509
+          ],
+          [
+            -117.39338351133746,
+            33.199813741780716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T011",
+        "x_ref_m": 229.66,
+        "min_winter_mhw_m": 178.78,
+        "max_winter_mhw_m": 274.91,
+        "winter_excursion_m": 96.13,
+        "usgs_historical_excursion_m": 27.6,
+        "net_anomaly_vs_usgs_m": -14.22,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3901399,
+            33.20390919
+          ],
+          [
+            -117.39405433656991,
+            33.20051156810077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T000",
+        "x_ref_m": 101.52,
+        "min_winter_mhw_m": 66.44,
+        "max_winter_mhw_m": 120.01,
+        "winter_excursion_m": 53.57,
+        "usgs_historical_excursion_m": 10.4,
+        "net_anomaly_vs_usgs_m": -7.2,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39212829999998,
+            33.20329648
+          ],
+          [
+            -117.39521605900894,
+            33.2014232223275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T001",
+        "x_ref_m": 130.81,
+        "min_winter_mhw_m": 84.97,
+        "max_winter_mhw_m": 144.64,
+        "winter_excursion_m": 59.67,
+        "usgs_historical_excursion_m": 13.1,
+        "net_anomaly_vs_usgs_m": -13.83,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39261270000002,
+            33.20410098
+          ],
+          [
+            -117.39585360046642,
+            33.20213481030972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T002",
+        "x_ref_m": 128.72,
+        "min_winter_mhw_m": 98.1,
+        "max_winter_mhw_m": 130.99,
+        "winter_excursion_m": 32.89,
+        "usgs_historical_excursion_m": 15.2,
+        "net_anomaly_vs_usgs_m": -9.45,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3934442,
+            33.20474935
+          ],
+          [
+            -117.3964125976115,
+            33.20270565358705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T003",
+        "x_ref_m": 152.3,
+        "min_winter_mhw_m": 96.31,
+        "max_winter_mhw_m": 158.19,
+        "winter_excursion_m": 61.88,
+        "usgs_historical_excursion_m": 16.4,
+        "net_anomaly_vs_usgs_m": -16.61,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3940023,
+            33.20565389
+          ],
+          [
+            -117.39687459128548,
+            33.20316941562018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T004",
+        "x_ref_m": 150.94,
+        "min_winter_mhw_m": 98.55,
+        "max_winter_mhw_m": 168.11,
+        "winter_excursion_m": 69.56,
+        "usgs_historical_excursion_m": 17.9,
+        "net_anomaly_vs_usgs_m": -12.0,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3947232,
+            33.20641332
+          ],
+          [
+            -117.3974663783738,
+            33.203721149478284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T005",
+        "x_ref_m": 117.2,
+        "min_winter_mhw_m": 83.25,
+        "max_winter_mhw_m": 144.17,
+        "winter_excursion_m": 60.92,
+        "usgs_historical_excursion_m": 19.2,
+        "net_anomaly_vs_usgs_m": -5.84,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.395674,
+            33.20690288
+          ],
+          [
+            -117.39813646687641,
+            33.20431737517918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T006",
+        "x_ref_m": 68.17,
+        "min_winter_mhw_m": 68.17,
+        "max_winter_mhw_m": 96.66,
+        "winter_excursion_m": 28.49,
+        "usgs_historical_excursion_m": 12.6,
+        "net_anomaly_vs_usgs_m": 17.88,
+        "regime": "Wide Accretion / Harbor Fillet"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39666520000002,
+            33.20732031
+          ],
+          [
+            -117.39887369271386,
+            33.20488162852044
+          ]
+        ]
+      }
+    }
+  ]
+}

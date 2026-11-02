@@ -1,0 +1,1691 @@
+{
+  "type": "FeatureCollection",
+  "name": "step3_ref_buffer",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CoastSat Reference Shoreline Buffer (\u00b150 m)",
+        "layer_type": "buffer_corridor",
+        "buffer_half_width_m": 50.0,
+        "index": "NDWI (B6-B8)/(B6+B8) + Whitewater Mask",
+        "description": "Spatial constraint corridor around historical Landsat/S2 mean shoreline that rejects offshore wave-breaking foam."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -117.3622048,
+              33.1687326
+            ],
+            [
+              -117.3628141,
+              33.1694694
+            ],
+            [
+              -117.3634395,
+              33.1701895
+            ],
+            [
+              -117.3640496,
+              33.1709149
+            ],
+            [
+              -117.3646597,
+              33.1716472
+            ],
+            [
+              -117.3653024,
+              33.17236
+            ],
+            [
+              -117.3659437,
+              33.1730687
+            ],
+            [
+              -117.3665681,
+              33.1737782
+            ],
+            [
+              -117.3671861,
+              33.1744825
+            ],
+            [
+              -117.367797,
+              33.1752041
+            ],
+            [
+              -117.3684203,
+              33.1759384
+            ],
+            [
+              -117.3688362,
+              33.1768158
+            ],
+            [
+              -117.3697739,
+              33.1773164
+            ],
+            [
+              -117.3703811,
+              33.1780397
+            ],
+            [
+              -117.370983,
+              33.1787711
+            ],
+            [
+              -117.3716189,
+              33.1794812
+            ],
+            [
+              -117.3722341,
+              33.1802035
+            ],
+            [
+              -117.3728776,
+              33.1809126
+            ],
+            [
+              -117.3734621,
+              33.1816579
+            ],
+            [
+              -117.3741079,
+              33.1823658
+            ],
+            [
+              -117.3747359,
+              33.183083
+            ],
+            [
+              -117.3753843,
+              33.1837879
+            ],
+            [
+              -117.3760464,
+              33.1844842
+            ],
+            [
+              -117.3766639,
+              33.1852081
+            ],
+            [
+              -117.3773444,
+              33.185892
+            ],
+            [
+              -117.3778945,
+              33.1866569
+            ],
+            [
+              -117.3784955,
+              33.1873898
+            ],
+            [
+              -117.3791059,
+              33.1881179
+            ],
+            [
+              -117.3797132,
+              33.188851
+            ],
+            [
+              -117.3803017,
+              33.1895987
+            ],
+            [
+              -117.3809118,
+              33.1903291
+            ],
+            [
+              -117.3815122,
+              33.1910757
+            ],
+            [
+              -117.3821228,
+              33.1918207
+            ],
+            [
+              -117.3827444,
+              33.1925536
+            ],
+            [
+              -117.3833685,
+              33.1932862
+            ],
+            [
+              -117.384117,
+              33.1939172
+            ],
+            [
+              -117.3846486,
+              33.1945674
+            ],
+            [
+              -117.3851204,
+              33.1953672
+            ],
+            [
+              -117.3857823,
+              33.1960895
+            ],
+            [
+              -117.3865336,
+              33.1967671
+            ],
+            [
+              -117.3870101,
+              33.1975926
+            ],
+            [
+              -117.387727,
+              33.1982619
+            ],
+            [
+              -117.3882705,
+              33.1990713
+            ],
+            [
+              -117.3890205,
+              33.1997304
+            ],
+            [
+              -117.3899656,
+              33.2002078
+            ],
+            [
+              -117.3905678,
+              33.2009704
+            ],
+            [
+              -117.3909295,
+              33.2019437
+            ],
+            [
+              -117.391481,
+              33.2027452
+            ],
+            [
+              -117.3925765,
+              33.2030245
+            ],
+            [
+              -117.3933158,
+              33.2036744
+            ],
+            [
+              -117.3940976,
+              33.2042995
+            ],
+            [
+              -117.3947673,
+              33.2049922
+            ],
+            [
+              -117.3954278,
+              33.2057219
+            ],
+            [
+              -117.3961246,
+              33.2064297
+            ],
+            [
+              -117.3967833,
+              33.2071899
+            ],
+            [
+              -117.3974332,
+              33.2064722
+            ],
+            [
+              -117.3967953,
+              33.2057256
+            ],
+            [
+              -117.3961258,
+              33.2050368
+            ],
+            [
+              -117.3955151,
+              33.2043454
+            ],
+            [
+              -117.3949277,
+              33.203728
+            ],
+            [
+              -117.3941858,
+              33.2031466
+            ],
+            [
+              -117.3934466,
+              33.2024967
+            ],
+            [
+              -117.3922275,
+              33.2020973
+            ],
+            [
+              -117.391676,
+              33.2012958
+            ],
+            [
+              -117.3910865,
+              33.2005295
+            ],
+            [
+              -117.3903512,
+              33.1998935
+            ],
+            [
+              -117.3897985,
+              33.1991094
+            ],
+            [
+              -117.3890776,
+              33.198477
+            ],
+            [
+              -117.3885746,
+              33.1977089
+            ],
+            [
+              -117.3877812,
+              33.1971074
+            ],
+            [
+              -117.387191,
+              33.1963828
+            ],
+            [
+              -117.3865906,
+              33.1956778
+            ],
+            [
+              -117.3859854,
+              33.1949522
+            ],
+            [
+              -117.3853992,
+              33.1942072
+            ],
+            [
+              -117.3849078,
+              33.1933077
+            ],
+            [
+              -117.3840575,
+              33.1927552
+            ],
+            [
+              -117.3833615,
+              33.1920862
+            ],
+            [
+              -117.3827949,
+              33.1913206
+            ],
+            [
+              -117.3820869,
+              33.1906687
+            ],
+            [
+              -117.3814534,
+              33.1899641
+            ],
+            [
+              -117.3808054,
+              33.1892605
+            ],
+            [
+              -117.3801883,
+              33.1885477
+            ],
+            [
+              -117.3795948,
+              33.1878202
+            ],
+            [
+              -117.3789413,
+              33.1871194
+            ],
+            [
+              -117.3783285,
+              33.1863898
+            ],
+            [
+              -117.3777756,
+              33.1856207
+            ],
+            [
+              -117.3771686,
+              33.1848871
+            ],
+            [
+              -117.3764762,
+              33.1842137
+            ],
+            [
+              -117.3759427,
+              33.1834428
+            ],
+            [
+              -117.3753322,
+              33.1827173
+            ],
+            [
+              -117.3745416,
+              33.1820998
+            ],
+            [
+              -117.3739098,
+              33.1813893
+            ],
+            [
+              -117.3735053,
+              33.1805484
+            ],
+            [
+              -117.3728909,
+              33.1798239
+            ],
+            [
+              -117.3722789,
+              33.1790896
+            ],
+            [
+              -117.3714541,
+              33.1784853
+            ],
+            [
+              -117.3708372,
+              33.177758
+            ],
+            [
+              -117.3703605,
+              33.176931
+            ],
+            [
+              -117.3695203,
+              33.1763449
+            ],
+            [
+              -117.3690537,
+              33.1755513
+            ],
+            [
+              -117.3682866,
+              33.1749397
+            ],
+            [
+              -117.3677703,
+              33.1741511
+            ],
+            [
+              -117.3669975,
+              33.1735081
+            ],
+            [
+              -117.3664716,
+              33.1727169
+            ],
+            [
+              -117.3658395,
+              33.172002
+            ],
+            [
+              -117.365183,
+              33.1713095
+            ],
+            [
+              -117.3645724,
+              33.1705871
+            ],
+            [
+              -117.3639541,
+              33.1698586
+            ],
+            [
+              -117.3633246,
+              33.1691459
+            ],
+            [
+              -117.362734,
+              33.1684279
+            ],
+            [
+              -117.3622048,
+              33.1687326
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Historical Landsat / USGS Mean Shoreline (x_ref)",
+        "layer_type": "landsat_usgs_ref_line",
+        "sensor": "Landsat 5/7/8/9 + Sentinel-2 Archive (30m/10m)",
+        "description": "Long-term mean shoreline baseline from USGS / CoastSat California archive."
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3622915,
+            33.1686827
+          ],
+          [
+            -117.3628963,
+            33.1694173
+          ],
+          [
+            -117.3635281,
+            33.1701325
+          ],
+          [
+            -117.3641425,
+            33.1708566
+          ],
+          [
+            -117.3647576,
+            33.171584
+          ],
+          [
+            -117.3654192,
+            33.1722821
+          ],
+          [
+            -117.3660513,
+            33.172997
+          ],
+          [
+            -117.3665681,
+            33.1737782
+          ],
+          [
+            -117.3673257,
+            33.1744033
+          ],
+          [
+            -117.3678354,
+            33.1751834
+          ],
+          [
+            -117.3686199,
+            33.1758164
+          ],
+          [
+            -117.3691053,
+            33.1766305
+          ],
+          [
+            -117.3699379,
+            33.1772087
+          ],
+          [
+            -117.370405,
+            33.178025
+          ],
+          [
+            -117.3710191,
+            33.1787492
+          ],
+          [
+            -117.3718406,
+            33.1793496
+          ],
+          [
+            -117.3724489,
+            33.1800794
+          ],
+          [
+            -117.3730639,
+            33.1808045
+          ],
+          [
+            -117.3734732,
+            33.1816512
+          ],
+          [
+            -117.3741082,
+            33.1823656
+          ],
+          [
+            -117.3748988,
+            33.182983
+          ],
+          [
+            -117.3755105,
+            33.1837099
+          ],
+          [
+            -117.3760467,
+            33.1844839
+          ],
+          [
+            -117.3767409,
+            33.1851592
+          ],
+          [
+            -117.3773461,
+            33.1858909
+          ],
+          [
+            -117.3778957,
+            33.1866562
+          ],
+          [
+            -117.3785063,
+            33.1873833
+          ],
+          [
+            -117.3791604,
+            33.1880847
+          ],
+          [
+            -117.3797611,
+            33.1888204
+          ],
+          [
+            -117.3803863,
+            33.1895419
+          ],
+          [
+            -117.3810349,
+            33.1902462
+          ],
+          [
+            -117.3816766,
+            33.1909593
+          ],
+          [
+            -117.3823932,
+            33.1916195
+          ],
+          [
+            -117.382963,
+            33.1923881
+          ],
+          [
+            -117.3836621,
+            33.1930599
+          ],
+          [
+            -117.3845124,
+            33.1936125
+          ],
+          [
+            -117.3849334,
+            33.1944307
+          ],
+          [
+            -117.3855195,
+            33.1951757
+          ],
+          [
+            -117.3861318,
+            33.1959115
+          ],
+          [
+            -117.3867505,
+            33.1966403
+          ],
+          [
+            -117.3873518,
+            33.1973776
+          ],
+          [
+            -117.3881508,
+            33.1979854
+          ],
+          [
+            -117.388674,
+            33.1987742
+          ],
+          [
+            -117.3894095,
+            33.1994199
+          ],
+          [
+            -117.3899661,
+            33.2002074
+          ],
+          [
+            -117.3907093,
+            33.2008502
+          ],
+          [
+            -117.3913028,
+            33.2016198
+          ],
+          [
+            -117.3918542,
+            33.2024212
+          ],
+          [
+            -117.3930116,
+            33.2027606
+          ],
+          [
+            -117.3937508,
+            33.2034105
+          ],
+          [
+            -117.3945127,
+            33.2040137
+          ],
+          [
+            -117.3951412,
+            33.2046688
+          ],
+          [
+            -117.3957768,
+            33.2053793
+          ],
+          [
+            -117.39646,
+            33.2060777
+          ],
+          [
+            -117.3971083,
+            33.2068311
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T031",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 9.8,
+        "usgs_beach_width_m": 9.8,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3622915,
+          33.1686827
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T032",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 9.6,
+        "usgs_beach_width_m": 9.6,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3628963,
+          33.1694173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T033",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 10.4,
+        "usgs_beach_width_m": 10.4,
+        "stl_seasonal_excursion_m": 7.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3635281,
+          33.1701325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T034",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 10.8,
+        "usgs_beach_width_m": 10.8,
+        "stl_seasonal_excursion_m": 10.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3641425,
+          33.1708566
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T035",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 11.5,
+        "usgs_beach_width_m": 11.5,
+        "stl_seasonal_excursion_m": 10.7,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3647576,
+          33.171584
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T036",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 13.9,
+        "usgs_beach_width_m": 13.9,
+        "stl_seasonal_excursion_m": 11.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3654192,
+          33.1722821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T037",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 12.8,
+        "usgs_beach_width_m": 12.8,
+        "stl_seasonal_excursion_m": 11.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3660513,
+          33.172997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T038",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.0,
+        "usgs_beach_width_m": 14.5,
+        "stl_seasonal_excursion_m": 13.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3665681,
+          33.1737782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T039",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 15.7,
+        "usgs_beach_width_m": 15.7,
+        "stl_seasonal_excursion_m": 10.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3673257,
+          33.1744033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T040",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 4.25,
+        "usgs_beach_width_m": 20.2,
+        "stl_seasonal_excursion_m": 11.7,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3678354,
+          33.1751834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T041",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 23.0,
+        "usgs_beach_width_m": 23.0,
+        "stl_seasonal_excursion_m": 11.5,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3686199,
+          33.1758164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T042",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 32.42,
+        "usgs_beach_width_m": 52.6,
+        "stl_seasonal_excursion_m": 9.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3691053,
+          33.1766305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T043",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 19.4,
+        "usgs_beach_width_m": 19.4,
+        "stl_seasonal_excursion_m": 8.8,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3699379,
+          33.1772087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T044",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 2.76,
+        "usgs_beach_width_m": 24.0,
+        "stl_seasonal_excursion_m": 11.1,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.370405,
+          33.178025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T045",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 4.15,
+        "usgs_beach_width_m": 27.1,
+        "stl_seasonal_excursion_m": 11.5,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3710191,
+          33.1787492
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T046",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 25.3,
+        "usgs_beach_width_m": 25.3,
+        "stl_seasonal_excursion_m": 12.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3718406,
+          33.1793496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T047",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 24.3,
+        "usgs_beach_width_m": 24.3,
+        "stl_seasonal_excursion_m": 11.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3724489,
+          33.1800794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T048",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 21.1,
+        "usgs_beach_width_m": 21.1,
+        "stl_seasonal_excursion_m": 8.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3730639,
+          33.1808045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T049",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 1.27,
+        "usgs_beach_width_m": 24.1,
+        "stl_seasonal_excursion_m": 7.7,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3734732,
+          33.1816512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T050",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.04,
+        "usgs_beach_width_m": 20.7,
+        "stl_seasonal_excursion_m": 7.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3741082,
+          33.1823656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T051",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 18.8,
+        "usgs_beach_width_m": 18.8,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3748988,
+          33.182983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T052",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 14.6,
+        "usgs_beach_width_m": 14.6,
+        "stl_seasonal_excursion_m": 9.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3755105,
+          33.1837099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T053",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.04,
+        "usgs_beach_width_m": 7.1,
+        "stl_seasonal_excursion_m": 9.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3760467,
+          33.1844839
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T054",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 9.0,
+        "usgs_beach_width_m": 9.0,
+        "stl_seasonal_excursion_m": 7.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3767409,
+          33.1851592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T055",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.2,
+        "usgs_beach_width_m": 0.2,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3773461,
+          33.1858909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T056",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.14,
+        "usgs_beach_width_m": 11.9,
+        "stl_seasonal_excursion_m": 7.1,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3778957,
+          33.1866562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T057",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 1.24,
+        "usgs_beach_width_m": 14.8,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3785063,
+          33.1873833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T058",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 6.27,
+        "usgs_beach_width_m": 17.6,
+        "stl_seasonal_excursion_m": 9.4,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3791604,
+          33.1880847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T059",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 5.61,
+        "usgs_beach_width_m": 22.4,
+        "stl_seasonal_excursion_m": 12.7,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3797611,
+          33.1888204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T060",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 10.09,
+        "usgs_beach_width_m": 31.0,
+        "stl_seasonal_excursion_m": 13.1,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3803863,
+          33.1895419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T061",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 14.7,
+        "usgs_beach_width_m": 34.8,
+        "stl_seasonal_excursion_m": 12.7,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3810349,
+          33.1902462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T062",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 20.04,
+        "usgs_beach_width_m": 42.3,
+        "stl_seasonal_excursion_m": 15.5,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3816766,
+          33.1909593
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T063",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 33.66,
+        "usgs_beach_width_m": 48.6,
+        "stl_seasonal_excursion_m": 12.4,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3823932,
+          33.1916195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T064",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 27.42,
+        "usgs_beach_width_m": 55.2,
+        "stl_seasonal_excursion_m": 13.5,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.382963,
+          33.1923881
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T065",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 37.12,
+        "usgs_beach_width_m": 64.2,
+        "stl_seasonal_excursion_m": 12.8,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3836621,
+          33.1930599
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T066",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 66.74,
+        "usgs_beach_width_m": 69.5,
+        "stl_seasonal_excursion_m": 14.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3845124,
+          33.1936125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T000",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 30.56,
+        "usgs_beach_width_m": 56.6,
+        "stl_seasonal_excursion_m": 12.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3849334,
+          33.1944307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T001",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 42.83,
+        "usgs_beach_width_m": 72.5,
+        "stl_seasonal_excursion_m": 8.8,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3855195,
+          33.1951757
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T002",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 38.09,
+        "usgs_beach_width_m": 62.1,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3861318,
+          33.1959115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T003",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 24.63,
+        "usgs_beach_width_m": 44.2,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3867505,
+          33.1966403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T004",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 39.78,
+        "usgs_beach_width_m": 61.8,
+        "stl_seasonal_excursion_m": 6.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3873518,
+          33.1973776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T005",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 62.66,
+        "usgs_beach_width_m": 65.9,
+        "stl_seasonal_excursion_m": 0.0,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3881508,
+          33.1979854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T006",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 50.47,
+        "usgs_beach_width_m": 68.0,
+        "stl_seasonal_excursion_m": 14.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.388674,
+          33.1987742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T007",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 63.76,
+        "usgs_beach_width_m": 70.9,
+        "stl_seasonal_excursion_m": 16.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3894095,
+          33.1994199
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T008",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 0.06,
+        "usgs_beach_width_m": 19.7,
+        "stl_seasonal_excursion_m": 21.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3899661,
+          33.2002074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T009",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 18.75,
+        "usgs_beach_width_m": 31.3,
+        "stl_seasonal_excursion_m": 28.3,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3907093,
+          33.2008502
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T010",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 264.75,
+        "usgs_beach_width_m": 293.5,
+        "stl_seasonal_excursion_m": 24.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3913028,
+          33.2016198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T011",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 229.66,
+        "usgs_beach_width_m": 274.4,
+        "stl_seasonal_excursion_m": 27.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3918542,
+          33.2024212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T000",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 101.52,
+        "usgs_beach_width_m": 104.9,
+        "stl_seasonal_excursion_m": 10.4,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3930116,
+          33.2027606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T001",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 130.81,
+        "usgs_beach_width_m": 122.5,
+        "stl_seasonal_excursion_m": 13.1,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3937508,
+          33.2034105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T002",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 128.72,
+        "usgs_beach_width_m": 107.6,
+        "stl_seasonal_excursion_m": 15.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3945127,
+          33.2040137
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T003",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 152.3,
+        "usgs_beach_width_m": 134.1,
+        "stl_seasonal_excursion_m": 16.4,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3951412,
+          33.2046688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T004",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 150.94,
+        "usgs_beach_width_m": 143.0,
+        "stl_seasonal_excursion_m": 17.9,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3957768,
+          33.2053793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T005",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 117.2,
+        "usgs_beach_width_m": 117.2,
+        "stl_seasonal_excursion_m": 19.2,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.39646,
+          33.2060777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T006",
+        "layer_type": "landsat_usgs_ref_point",
+        "x_ref_m": 68.17,
+        "usgs_beach_width_m": 89.8,
+        "stl_seasonal_excursion_m": 12.6,
+        "source": "Landsat/S2 CoastSat Historical Reference (USGS)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.3971083,
+          33.2068311
+        ]
+      }
+    }
+  ]
+}

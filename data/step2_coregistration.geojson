@@ -1,0 +1,519 @@
+{
+  "type": "FeatureCollection",
+  "name": "step2_coregistration",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_01",
+        "transect_id": "CA_S017_T031",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.8,
+        "dy_m": 0.0,
+        "shift_m": 1.8,
+        "shift_px": 0.6,
+        "ssim_after": 0.91,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3622048,
+            33.1687326
+          ],
+          [
+            -117.3617209,
+            33.1687326
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_02",
+        "transect_id": "CA_S017_T034",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.38,
+        "dy_m": 0.97,
+        "shift_m": 1.69,
+        "shift_px": 0.56,
+        "ssim_after": 0.925,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3640496,
+            33.1709149
+          ],
+          [
+            -117.3636786,
+            33.1711333
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_03",
+        "transect_id": "CA_S017_T037",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 0.31,
+        "dy_m": 1.48,
+        "shift_m": 1.51,
+        "shift_px": 0.5,
+        "ssim_after": 0.94,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3659437,
+            33.1730687
+          ],
+          [
+            -117.3658604,
+            33.1734021
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_04",
+        "transect_id": "CA_S017_T040",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -0.91,
+        "dy_m": 1.29,
+        "shift_m": 1.58,
+        "shift_px": 0.53,
+        "ssim_after": 0.955,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.367797,
+            33.1752041
+          ],
+          [
+            -117.3680416,
+            33.1754946
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_05",
+        "transect_id": "CA_S017_T043",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -1.7,
+        "dy_m": 0.5,
+        "shift_m": 1.77,
+        "shift_px": 0.59,
+        "ssim_after": 0.91,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3697739,
+            33.1773164
+          ],
+          [
+            -117.3702309,
+            33.1774291
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_06",
+        "transect_id": "CA_S017_T046",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -1.69,
+        "dy_m": -0.53,
+        "shift_m": 1.77,
+        "shift_px": 0.59,
+        "ssim_after": 0.925,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3716189,
+            33.1794812
+          ],
+          [
+            -117.3720732,
+            33.1793618
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_07",
+        "transect_id": "CA_S017_T049",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -0.88,
+        "dy_m": -1.31,
+        "shift_m": 1.58,
+        "shift_px": 0.53,
+        "ssim_after": 0.94,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3734621,
+            33.1816579
+          ],
+          [
+            -117.3736987,
+            33.1813628
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_08",
+        "transect_id": "CA_S017_T052",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 0.34,
+        "dy_m": -1.47,
+        "shift_m": 1.51,
+        "shift_px": 0.5,
+        "ssim_after": 0.955,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3753843,
+            33.1837879
+          ],
+          [
+            -117.3752929,
+            33.1834568
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_09",
+        "transect_id": "CA_S017_T055",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.4,
+        "dy_m": -0.95,
+        "shift_m": 1.69,
+        "shift_px": 0.56,
+        "ssim_after": 0.91,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3773444,
+            33.185892
+          ],
+          [
+            -117.3769681,
+            33.185678
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_10",
+        "transect_id": "CA_S017_T058",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.8,
+        "dy_m": 0.03,
+        "shift_m": 1.8,
+        "shift_px": 0.6,
+        "ssim_after": 0.925,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3791059,
+            33.1881179
+          ],
+          [
+            -117.378622,
+            33.1881246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_11",
+        "transect_id": "CA_S017_T061",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.36,
+        "dy_m": 0.99,
+        "shift_m": 1.68,
+        "shift_px": 0.56,
+        "ssim_after": 0.94,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3809118,
+            33.1903291
+          ],
+          [
+            -117.3805462,
+            33.1905521
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_12",
+        "transect_id": "CA_S017_T064",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 0.28,
+        "dy_m": 1.48,
+        "shift_m": 1.51,
+        "shift_px": 0.5,
+        "ssim_after": 0.955,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3827444,
+            33.1925536
+          ],
+          [
+            -117.3826691,
+            33.1928869
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_13",
+        "transect_id": "CA_S018_T000",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -0.93,
+        "dy_m": 1.28,
+        "shift_m": 1.58,
+        "shift_px": 0.53,
+        "ssim_after": 0.91,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3846486,
+            33.1945674
+          ],
+          [
+            -117.3848986,
+            33.1948557
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_14",
+        "transect_id": "CA_S018_T003",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -1.71,
+        "dy_m": 0.48,
+        "shift_m": 1.78,
+        "shift_px": 0.59,
+        "ssim_after": 0.925,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3865336,
+            33.1967671
+          ],
+          [
+            -117.3869933,
+            33.1968752
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_15",
+        "transect_id": "CA_S018_T006",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -1.67,
+        "dy_m": -0.55,
+        "shift_m": 1.76,
+        "shift_px": 0.59,
+        "ssim_after": 0.94,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3882667,
+            33.1990741
+          ],
+          [
+            -117.3887156,
+            33.1989502
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_16",
+        "transect_id": "CA_S018_T009",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": -0.86,
+        "dy_m": -1.32,
+        "shift_m": 1.58,
+        "shift_px": 0.53,
+        "ssim_after": 0.955,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3905678,
+            33.2009704
+          ],
+          [
+            -117.390799,
+            33.2006731
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_17",
+        "transect_id": "CA_S019_T000",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 0.37,
+        "dy_m": -1.47,
+        "shift_m": 1.52,
+        "shift_px": 0.51,
+        "ssim_after": 0.91,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3921283,
+            33.2032965
+          ],
+          [
+            -117.3920288,
+            33.2029654
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_18",
+        "transect_id": "CA_S019_T003",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.41,
+        "dy_m": -0.93,
+        "shift_m": 1.69,
+        "shift_px": 0.56,
+        "ssim_after": 0.925,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3940023,
+            33.2056539
+          ],
+          [
+            -117.3936233,
+            33.2054444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TIE_19",
+        "transect_id": "CA_S019_T006",
+        "feature_type": "Back-beach riprap / road tie-point",
+        "dx_m": 1.8,
+        "dy_m": 0.05,
+        "shift_m": 1.8,
+        "shift_px": 0.6,
+        "ssim_after": 0.94,
+        "method": "AROSICS Local (window 128x128 px)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3966652,
+            33.2073203
+          ],
+          [
+            -117.3961813,
+            33.2073316
+          ]
+        ]
+      }
+    }
+  ]
+}

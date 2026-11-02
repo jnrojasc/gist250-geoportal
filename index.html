@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIST 250 - Coastal Change Monitoring | Oceanside, CA</title>
+    <title>GIST 250 Educational Geoportal — Oceanside Multi-Sensor &amp; RTK Shoreline Lab</title>
     
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     
-    <!-- Chart.js for Metrics Visualization -->
+    <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
-    <!-- UCSC Branded Stylesheet -->
+    <!-- UCSC Educational Stylesheet -->
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -21,68 +21,240 @@
         <div class="header-branding">
             <img src="assets/logo.png" alt="UCSC Coastal Systems" class="header-logo" onerror="this.style.display='none'">
             <div class="header-title-box">
-                <h1>GIST 250</h1>
-                <p>Coastal Change Monitoring &mdash; Oceanside, California</p>
+                <h1>GIST 250 — Educational Coastal Geoportal</h1>
+                <p>Oceanside, CA (2023–24 El Niño) &bull; 8-Step Processing Chain, Landsat/S2/PS Quality &amp; Scripps RTK-GPS Validation</p>
             </div>
         </div>
         <div class="header-badge">
             <span class="live-indicator"></span>
-            <span>PlanetScope (3m) + S2 Baseline</span>
+            <span>PS (3m) &bull; S2 (10m) &bull; Landsat Ref (30m) &bull; Scripps RTK-GPS</span>
         </div>
     </header>
     
     <!-- Mobile Sidebar Toggle -->
-    <button class="toggle-btn" id="sidebar-toggle">☰ Pipeline &amp; Data</button>
+    <button class="toggle-btn" id="sidebar-toggle">☰ Lab Explorer</button>
     
-    <!-- Main Map & Dashboard Layout -->
+    <!-- Main Split Layout: Interactive Map (Left) + Educational Lab Panel (Right) -->
     <div id="map-container">
-        <!-- Interactive Leaflet Map -->
-        <div id="map"></div>
-        
-        <!-- Sidebar: Pipeline Explanation, Metrics, and Export -->
-        <aside class="sidebar" id="sidebar">
-            <h3>🌊 How This Works</h3>
+        <div id="map-wrapper">
+            <div id="map"></div>
             
-            <div class="pipeline-explainer" id="pipeline-steps">
-                <!-- Dynamically populated by PipelineExplainer -->
+            <!-- Floating Quick Step Bar on Map -->
+            <div class="map-step-bar">
+                <span class="step-bar-label">Map Step Product:</span>
+                <button class="quick-step-btn" data-step="1" title="Step 1: Acquire + UDM2 Screen">1. Screen</button>
+                <button class="quick-step-btn" data-step="2" title="Step 2: AROSICS Local Co-registration">2. Coreg</button>
+                <button class="quick-step-btn" data-step="3" title="Step 3: Landsat/USGS Ref & ±50m Buffer">3. Buffer/Ref</button>
+                <button class="quick-step-btn" data-step="4" title="Step 4: Sub-pixel Raw Waterline">4. Waterline</button>
+                <button class="quick-step-btn" data-step="5" title="Step 5: Per-Transect Tidal Correction">5. Tide Shift</button>
+                <button class="quick-step-btn active" data-step="6" title="Step 6: 4-Way Validation vs RTK-GPS">6. RTK vs Sat</button>
+                <button class="quick-step-btn" data-step="7" title="Step 7: El Niño Storm Excursion">7. Change</button>
+                <button class="quick-step-btn" data-step="8" title="Step 8: Coastal Hazard Hotspots">8. Hotspots</button>
             </div>
-            
-            <div class="metrics-panel">
-                <h3>📊 Real-Time Metrics</h3>
-                
-                <div class="controls">
-                    <button class="btn" id="refresh-data">🔄 Refresh Data (Weekly)</button>
-                    <button class="btn btn-secondary" id="toggle-technical">⚙️ Technical View</button>
+
+            <!-- Floating Active Geographical Product Banner & Legend -->
+            <div class="map-product-banner" id="map-product-banner">
+                <div class="banner-top-row">
+                    <strong id="active-product-title">6. Validate vs. Ground Truth — 4-Way Shoreline Overlay</strong>
+                    <div class="survey-filter-box">
+                        <label for="survey-date-select">RTK Survey Window:</label>
+                        <select id="survey-date-select">
+                            <option value="2024-02-09" selected>Feb 9–10, 2024 (Winter High Tide +1.61m)</option>
+                            <option value="2024-04-05">Apr 2–5, 2024 (Spring Low Tide -0.08m)</option>
+                            <option value="2023-11-26">Nov 24–26, 2023 (Early Winter)</option>
+                            <option value="2023-12-26">Dec 24–26, 2023 (Pre-Peak Swell)</option>
+                            <option value="2024-01-25">Jan 23–25, 2024 (Post-Extreme Storm)</option>
+                            <option value="2024-03-08">Mar 8, 2024 (Late Winter)</option>
+                            <option value="ALL">All 7 RTK Surveys Combined</option>
+                        </select>
+                    </div>
+                </div>
+                <p id="active-product-desc">Simultaneously maps Scripps RTK-GPS ground-truth MHW surveys, PlanetScope 3 m MHW, Sentinel-2 10 m MHW, and the historical Landsat/USGS baseline across all 55 transects. Click any transect to inspect its profile.</p>
+                <div class="banner-legend" id="active-product-legend"></div>
+            </div>
+        </div>
+        
+        <!-- Right Educational Sidebar with 3 Lab Tabs -->
+        <aside class="sidebar" id="sidebar">
+            <!-- Navigation Tabs -->
+            <div class="sidebar-tabs">
+                <button class="tab-btn active" data-tab="tab-pipeline">1. 8-Step Products</button>
+                <button class="tab-btn" data-tab="tab-quality">2. Landsat / S2 / PS</button>
+                <button class="tab-btn" data-tab="tab-rtk">3. RTK Ground Truth</button>
+            </div>
+
+            <!-- TAB 1: 8-Step Processing Chain & Geographical Products -->
+            <div class="tab-pane active" id="tab-pipeline">
+                <div class="pane-header-row">
+                    <div>
+                        <h3>🔗 Processing Chain &amp; Map Products</h3>
+                        <p class="pane-subtitle">Click any step below to display its geographical product on the map and see where we improve on the literature.</p>
+                    </div>
+                    <button class="btn btn-sm btn-secondary" id="toggle-technical">⚙️ Hide Tech Notes</button>
                 </div>
                 
+                <div class="pipeline-explainer" id="pipeline-steps">
+                    <!-- Populated by PipelineExplainer -->
+                </div>
+            </div>
+
+            <!-- TAB 2: Multi-Sensor Quality Comparison (Landsat vs Sentinel-2 vs PlanetScope) -->
+            <div class="tab-pane" id="tab-quality">
+                <h3>📊 Sensor Quality &amp; Ablation Comparison</h3>
+                <p class="pane-subtitle">Head-to-head comparison of Landsat (30 m), Sentinel-2 (10 m), and PlanetScope (3 m) against Scripps RTK-GPS ground truth at Oceanside.</p>
+
                 <div class="metrics-summary-chips">
                     <div class="metric-chip">
-                        <div class="value" id="metric-total-events">8</div>
-                        <div class="label">El Niño Events</div>
+                        <div class="value">19.08 m</div>
+                        <div class="label">Sentinel-2 v2 RMSE</div>
                     </div>
                     <div class="metric-chip">
-                        <div class="value" id="metric-recovery-rate">75%</div>
-                        <div class="label">Recovery Rate</div>
+                        <div class="value">20.07 m</div>
+                        <div class="label">PlanetScope v2 RMSE</div>
+                    </div>
+                    <div class="metric-chip">
+                        <div class="value">~24.5 m</div>
+                        <div class="label">Landsat 30m CA Lit.</div>
+                    </div>
+                    <div class="metric-chip">
+                        <div class="value">2.4×</div>
+                        <div class="label">PS Temporal Gain</div>
                     </div>
                 </div>
-                
+
+                <!-- Chart: Ablation RMSE Improvement -->
                 <div class="chart-container">
-                    <h4>Cloud Cover by Month (%)</h4>
-                    <canvas id="cloud-cover-chart"></canvas>
-                </div>
-                
-                <div class="chart-container">
-                    <h4>Beach Change Events (2023–24)</h4>
+                    <h4>Pipeline Ablation: MHW RMSE Reduction vs. Scripps RTK-GPS (m)</h4>
                     <canvas id="change-events-chart"></canvas>
                 </div>
+
+                <!-- Table: Ablation Study Details -->
+                <div class="table-card">
+                    <h4>Step-by-Step Pipeline Improvement (Ablation Audit)</h4>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Sensor</th>
+                                    <th>Method Stage</th>
+                                    <th>Pairs</th>
+                                    <th>MHW Bias</th>
+                                    <th>MHW RMSE</th>
+                                    <th>MAE</th>
+                                </tr>
+                            </thead>
+                            <tbody id="ablation-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Table: Landsat vs S2 vs PS vs RTK Matrix -->
+                <div class="table-card">
+                    <h4>Cross-Sensor Comparison: Landsat vs. Sentinel-2 vs. PlanetScope vs. RTK</h4>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Platform</th>
+                                    <th>Pixel</th>
+                                    <th>Revisit</th>
+                                    <th>Winter Usable</th>
+                                    <th>Oceanside RMSE</th>
+                                    <th>Role &amp; Coastal Trade-off</th>
+                                </tr>
+                            </thead>
+                            <tbody id="sensor-comparison-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Chart: Monthly Cloud-Free Usable Days -->
+                <div class="chart-container">
+                    <h4>Usable Cloud-Free Overpass Days / Month (El Niño 2023–24)</h4>
+                    <canvas id="cloud-cover-chart"></canvas>
+                </div>
             </div>
-            
+
+            <!-- TAB 3: Scripps RTK-GPS Ground Truth & Transect Inspector -->
+            <div class="tab-pane" id="tab-rtk">
+                <h3>📍 Scripps RTK-GPS &amp; Transect Inspector</h3>
+                <p class="pane-subtitle">Select any USGS transect (or click one on the map) to compare monthly in-situ Scripps RTK-GPS Wheelie surveys against PlanetScope, Sentinel-2, and the Landsat/USGS historical baseline.</p>
+
+                <div class="inspector-controls">
+                    <label for="transect-select"><strong>Inspect USGS Transect:</strong></label>
+                    <select id="transect-select"></select>
+                </div>
+
+                <div class="metrics-summary-chips three-col">
+                    <div class="metric-chip">
+                        <div class="value" id="inspector-xref">52.6 m</div>
+                        <div class="label">Landsat/USGS Baseline</div>
+                    </div>
+                    <div class="metric-chip">
+                        <div class="value" id="inspector-slope">tan β = 0.0699</div>
+                        <div class="label">Clamped Beach Slope</div>
+                    </div>
+                    <div class="metric-chip">
+                        <div class="value" id="inspector-excursion">9.3 m</div>
+                        <div class="label">USGS Seasonal Swing</div>
+                    </div>
+                </div>
+
+                <!-- Chart: Selected Transect Time Series -->
+                <div class="chart-container" style="height: 225px;">
+                    <h4>Cross-Shore MHW Position Along Selected Transect (m from Origin)</h4>
+                    <canvas id="transect-profile-chart"></canvas>
+                </div>
+
+                <!-- Table: In-Situ RTK Measurements & Satellite Residuals -->
+                <div class="table-card">
+                    <h4>In-Situ Scripps RTK-GPS Measurements (1.344 m NAVD88 MHW)</h4>
+                    <div class="table-scroll">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>RTK Survey</th>
+                                    <th>RTK MHW</th>
+                                    <th>GPS Pts</th>
+                                    <th>RTK tan β</th>
+                                    <th>PS 3m (Error)</th>
+                                    <th>S2 10m (Error)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rtk-transect-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Embedded QA & Validation Figures -->
+                <div class="table-card">
+                    <div class="fig-header">
+                        <h4>Validation &amp; RTK Beach Profile QA Figures</h4>
+                        <select id="qa-figure-select">
+                            <option value="multisensor_v2_coastsat_scatter.png" data-caption="Head-to-head MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) & PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.">1. Multi-Sensor vs. RTK Scatter (v2)</option>
+                            <option value="qa_profiles_20240209.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW (1.344 m) intersections on Feb 9, 2024.">2. Scripps RTK Profiles — Feb 9, 2024</option>
+                            <option value="qa_profiles_20240405.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Apr 5, 2024.">3. Scripps RTK Profiles — Apr 5, 2024</option>
+                            <option value="qa_profiles_20231126.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Nov 26, 2023.">4. Scripps RTK Profiles — Nov 26, 2023</option>
+                            <option value="multisensor_residual_vs_tide.png" data-caption="Satellite MHW residual error vs. overpass tide level (z_tide) showing removal of tidal bias after slope clamping.">5. Residual Error vs. Overpass Tide</option>
+                            <option value="oceanside_multisensor_events_timeseries.png" data-caption="Oceanside 2023–24 El Niño median MHW time series and storm retreat/recovery events.">6. El Niño Storm Events Time Series</option>
+                            <option value="fig_udm2_usable_days_scene.png" data-caption="PlanetScope UDM2 empirical cloud/marine-layer usability audit across San Diego benchmark sites.">7. UDM2 Usable Days Audit</option>
+                        </select>
+                    </div>
+                    <div class="qa-figure-box">
+                        <a id="qa-figure-link" href="assets/figures/multisensor_v2_coastsat_scatter.png" target="_blank" rel="noopener">
+                            <img id="qa-figure-img" src="assets/figures/multisensor_v2_coastsat_scatter.png" alt="Validation QA Figure" />
+                        </a>
+                        <p id="qa-figure-caption">Head-to-head MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) &amp; PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Export & Refresh Footer inside Sidebar -->
             <div class="download-section">
-                <h3>💾 Export Data</h3>
-                <p>Download Oceanside coastal monitoring records:</p>
                 <div class="download-buttons">
-                    <button class="btn" id="download-geojson">GeoJSON</button>
-                    <button class="btn btn-secondary" id="download-csv">CSV Log</button>
+                    <button class="btn btn-sm" id="refresh-data">🔄 Reload Products</button>
+                    <button class="btn btn-sm" id="download-geojson">💾 Export Active Step GeoJSON</button>
+                    <button class="btn btn-sm btn-secondary" id="download-csv">📊 Export Validation CSV</button>
                 </div>
             </div>
         </aside>
@@ -90,8 +262,8 @@
     
     <!-- Footer -->
     <footer class="footer">
-        <p><strong>GIST 250 Project | UCSC Coastal Systems Analysis</strong> &bull; Author: <a href="https://github.com/jnrojasc" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">James Rojas (jnrojasc)</a></p>
-        <p>Sensors: PlanetScope (UDM2 Screened) &amp; Sentinel-2 Baseline &bull; Last Updated: <span id="last-update">Loading...</span></p>
+        <p><strong>GIST 250 Educational Geoportal | UCSC Coastal Systems Analysis</strong> &bull; Author: <a href="https://github.com/jnrojasc" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">James Rojas (jnrojasc)</a></p>
+        <p>Data Sources: PlanetScope SuperDove (3m), Sentinel-2 L2A (10m), USGS/Landsat CoastSat Archive (30m), Scripps Institution of Oceanography RTK-GPS &bull; Updated: <span id="last-update">Loading...</span></p>
     </footer>
     
     <!-- Leaflet JS -->
