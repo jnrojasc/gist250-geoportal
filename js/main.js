@@ -28,7 +28,7 @@ class GeoportalApp {
             updateFrequency: 'weekly',
             primaryData: 'PlanetScope (~3m)',
             backupData: 'Sentinel-2 (10m)',
-            githubRepo: 'https://github.com/JamesColET/gist250-geoportal',
+            githubRepo: 'https://github.com/jnrojasc/gist250-geoportal',
             branding: {
                 title: 'GIST 250 Coastal Geoportal',
                 logo: 'assets/logo.png',
@@ -167,7 +167,7 @@ class GeoportalApp {
             name: 'oceanside_coastal_monitoring_export',
             metadata: {
                 project: 'GIST 250 - Oceanside El Niño Monitoring',
-                author: 'James Rojas (JamesColET)',
+                author: 'James Rojas (jnrojasc)',
                 timestamp: new Date().toISOString(),
                 sensor_primary: 'PlanetScope',
                 sensor_baseline: 'Sentinel-2',

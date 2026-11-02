@@ -1,12 +1,12 @@
 # GIST 250 Interactive Geoportal - Coastal Change Monitoring
 
-[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue.svg)](https://JamesColET.github.io/gist250-geoportal/)
+[![GitHub Pages](https://img.shields.io/badge/Deployment-GitHub%20Pages-blue.svg)](https://jnrojasc.github.io/gist250-geoportal/)
 [![UCSC Coastal Systems](https://img.shields.io/badge/UCSC-Coastal%20Systems-005A9C.svg)](https://www.ucsc.edu/)
 [![Sensors](https://img.shields.io/badge/Sensors-PlanetScope%20%2B%20Sentinel--2-success.svg)](#data-sources)
 
 Interactive web-based visualization platform for coastal change monitoring at **Oceanside, California** during the 2023–2024 El Niño winter. Features high-resolution PlanetScope satellite integration (~3 m), Sentinel-2 baseline cross-validation, automated cloud/marine layer screening, USGS transect-based shoreline tracking, and real-time event metrics.
 
-Live Geoportal: [https://JamesColET.github.io/gist250-geoportal/](https://JamesColET.github.io/gist250-geoportal/)
+Live Geoportal: [https://jnrojasc.github.io/gist250-geoportal/](https://jnrojasc.github.io/gist250-geoportal/)
 
 ---
 
@@ -29,7 +29,7 @@ Sentinel-2 Baseline (10 m) ──┘                                            
 | **Map Engine** | Leaflet.js v1.9.4 | Fast, mobile-responsive, open-source cartography |
 | **Charts & Metrics** | Chart.js | Dynamic, reactive line and bar charts |
 | **Data Ingestion** | Google Earth Engine (GEE) + Python | Cloud screening and clipping outside client code |
-| **Hosting** | GitHub Pages (`JamesColET.github.io`) | Automatic HTTPS, global CDN, no hosting costs |
+| **Hosting** | GitHub Pages (`jnrojasc.github.io`) | Automatic HTTPS, global CDN, no hosting costs |
 
 ---
 
@@ -81,13 +81,13 @@ git branch -M main
 git add .
 git commit -m "feat: initial commit of GIST 250 Oceanside Geoportal"
 
-# Add remote and push to JamesColET
-git remote add origin https://github.com/JamesColET/gist250-geoportal.git
+# Add remote and push to jnrojasc
+git remote add origin https://github.com/jnrojasc/gist250-geoportal.git
 git push -u origin main
 ```
 
 ### Step 3: Enable GitHub Pages
-1. Go to repository **Settings** → **Pages** (`https://github.com/JamesColET/gist250-geoportal/settings/pages`).
+1. Go to repository **Settings** → **Pages** (`https://github.com/jnrojasc/gist250-geoportal/settings/pages`).
 2. Under **Build and deployment**:
    - **Source**: `Deploy from a branch`
    - **Branch**: `main`
@@ -95,7 +95,7 @@ git push -u origin main
 3. Click **Save**.
 4. Within 1–2 minutes, your geoportal will be live at:
    ```
-   https://JamesColET.github.io/gist250-geoportal/
+   https://jnrojasc.github.io/gist250-geoportal/
    ```
 
 ---
@@ -129,5 +129,5 @@ GitHub Pages deploys updates automatically within seconds.
 
 - **Course:** GIST 250 - Advanced Coastal Remote Sensing & GIS
 - **Institution:** University of California, Santa Cruz (UCSC)
-- **Maintainer:** James Rojas ([GitHub: @JamesColET](https://github.com/JamesColET))
+- **Maintainer:** James Rojas ([GitHub: @jnrojasc](https://github.com/jnrojasc))
 - **Research Scope:** OPC Track 1 - High-Resolution Satellite Shoreline Monitoring for California Coastal Hazards
