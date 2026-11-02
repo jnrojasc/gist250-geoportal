@@ -5,14 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GIST 250 Educational Geoportal — Oceanside Multi-Sensor &amp; RTK Shoreline Lab</title>
     
+    <!-- Critical Layout Fallback CSS to prevent blank/collapsed map -->
+    <style>
+        html, body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: #0b1e36;
+        }
+        #map-container {
+            display: flex;
+            flex-direction: row;
+            height: calc(100vh - 62px - 34px);
+            width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        #map-wrapper {
+            flex: 1 1 0;
+            min-width: 0;
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background: #0b1e36;
+        }
+        #map {
+            height: 100%;
+            width: 100%;
+            min-height: 400px;
+            background: #0b1e36;
+        }
+    </style>
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     
-    <!-- UCSC Educational Stylesheet -->
-    <link rel="stylesheet" href="css/styles.css" />
+    <!-- UCSC Educational Stylesheet (Cache-Busted) -->
+    <link rel="stylesheet" href="css/styles.css?v=2.5.0" />
 </head>
 <body>
     
@@ -269,11 +303,11 @@
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
-    <!-- Modular Application Scripts -->
-    <script src="js/pipeline-explainer.js"></script>
-    <script src="js/metrics.js"></script>
-    <script src="js/map.js"></script>
-    <script src="js/data-fetcher.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Modular Application Scripts with Cache-Busting Version Query Strings -->
+    <script src="js/pipeline-explainer.js?v=2.5.0"></script>
+    <script src="js/metrics.js?v=2.5.0"></script>
+    <script src="js/map.js?v=2.5.0"></script>
+    <script src="js/data-fetcher.js?v=2.5.0"></script>
+    <script src="js/main.js?v=2.5.0"></script>
 </body>
 </html>

@@ -52,6 +52,11 @@ class GeoportalApp {
 
         // 6. Load All Educational Products
         this.refreshData();
+
+        // Invalidate map size on window load and after slight delay
+        window.addEventListener('load', () => {
+            setTimeout(() => { if (this.mapInstance && this.mapInstance.map) this.mapInstance.map.invalidateSize(); }, 300);
+        });
     }
 
     initEventListeners() {
@@ -140,6 +145,9 @@ class GeoportalApp {
         document.querySelectorAll('.tab-pane').forEach(p => {
             p.classList.toggle('active', p.id === tabId);
         });
+        if (this.mapInstance && this.mapInstance.map) {
+            this.mapInstance.map.invalidateSize();
+        }
     }
 
     selectStep(stepNum) {

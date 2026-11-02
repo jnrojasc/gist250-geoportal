@@ -54,6 +54,11 @@ class GeoportalMap {
 
         L.control.layers(baseMaps, overlayMaps, { position: 'topleft' }).addTo(this.map);
         L.control.scale({ imperial: true, metric: true, position: 'bottomleft' }).addTo(this.map);
+
+        // Force Leaflet recalculation after DOM and flex render
+        setTimeout(() => { if (this.map) this.map.invalidateSize(); }, 200);
+        setTimeout(() => { if (this.map) this.map.invalidateSize(); }, 600);
+        window.addEventListener('resize', () => { if (this.map) this.map.invalidateSize(); });
     }
 
     renderBaseTransects(transectsGeoJSON) {
