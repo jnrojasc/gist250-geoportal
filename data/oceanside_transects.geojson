@@ -1,0 +1,2426 @@
+{
+  "type": "FeatureCollection",
+  "name": "oceanside_transects",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T031",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 466228.796785065,
+        "origin_y": 3670051.314127449,
+        "azimuth_deg": 235.8,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 31,
+        "usgs_beach_width_m": 9.8,
+        "usgs_mean_shoreline_x": 466220.69391837146,
+        "usgs_mean_shoreline_y": 3670045.8210628587,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T031",
+        "name": "Transect CA_S017_T031",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3622048,
+            33.16873263
+          ],
+          [
+            -117.36485964780307,
+            33.16720387138941
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T032",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 466172.26964735804,
+        "origin_y": 3670133.1964886636,
+        "azimuth_deg": 233.2,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 32,
+        "usgs_beach_width_m": 9.6,
+        "usgs_mean_shoreline_x": 466164.576154547,
+        "usgs_mean_shoreline_y": 3670127.4404099053,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T032",
+        "name": "Transect CA_S017_T032",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3628141,
+            33.16946944
+          ],
+          [
+            -117.36538376618613,
+            33.16784095759849
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T033",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 466114.23591445386,
+        "origin_y": 3670213.2296489654,
+        "azimuth_deg": 232.8,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 33,
+        "usgs_beach_width_m": 10.4,
+        "usgs_mean_shoreline_x": 466105.9065218096,
+        "usgs_mean_shoreline_y": 3670206.9237135523,
+        "stl_seasonal_excursion_m": 7.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T033",
+        "name": "Transect CA_S017_T033",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3634395,
+            33.17018952
+          ],
+          [
+            -117.36599559445047,
+            33.16854597728657
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T034",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 466057.63167805766,
+        "origin_y": 3670293.8413567166,
+        "azimuth_deg": 233.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 34,
+        "usgs_beach_width_m": 10.8,
+        "usgs_mean_shoreline_x": 466048.9382597368,
+        "usgs_mean_shoreline_y": 3670287.4114571866,
+        "stl_seasonal_excursion_m": 10.2,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T034",
+        "name": "Transect CA_S017_T034",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3640496,
+            33.17091486
+          ],
+          [
+            -117.36662938871221,
+            33.16929769006748
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T035",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 466001.0310696548,
+        "origin_y": 3670375.225023499,
+        "azimuth_deg": 232.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 35,
+        "usgs_beach_width_m": 11.5,
+        "usgs_mean_shoreline_x": 465991.8696238071,
+        "usgs_mean_shoreline_y": 3670368.2557811122,
+        "stl_seasonal_excursion_m": 10.7,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T035",
+        "name": "Transect CA_S017_T035",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36465970000002,
+            33.17164716
+          ],
+          [
+            -117.36721239864438,
+            33.16999984312805
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T036",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465941.3844356902,
+        "origin_y": 3670454.461115026,
+        "azimuth_deg": 231.8,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 36,
+        "usgs_beach_width_m": 13.9,
+        "usgs_mean_shoreline_x": 465930.4925738968,
+        "usgs_mean_shoreline_y": 3670445.8915266246,
+        "stl_seasonal_excursion_m": 11.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T036",
+        "name": "Transect CA_S017_T036",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36530240000002,
+            33.17235999
+          ],
+          [
+            -117.36782402440778,
+            33.170679143188316
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T037",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465881.86772580934,
+        "origin_y": 3670533.2459149254,
+        "azimuth_deg": 231.8,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 37,
+        "usgs_beach_width_m": 12.8,
+        "usgs_mean_shoreline_x": 465871.77994927624,
+        "usgs_mean_shoreline_y": 3670525.3143836777,
+        "stl_seasonal_excursion_m": 11.6,
+        "stl_month_min": 6.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T037",
+        "name": "Transect CA_S017_T037",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3659437,
+            33.17306875
+          ],
+          [
+            -117.36846533220226,
+            33.17138789033604
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T038",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465823.9278959983,
+        "origin_y": 3670612.104291877,
+        "azimuth_deg": 233.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 38,
+        "usgs_beach_width_m": 14.5,
+        "usgs_mean_shoreline_x": 465812.280619915,
+        "usgs_mean_shoreline_y": 3670603.453221064,
+        "stl_seasonal_excursion_m": 13.2,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T038",
+        "name": "Transect CA_S017_T038",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3665681,
+            33.17377822000001
+          ],
+          [
+            -117.3691445650418,
+            33.17215721425791
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T039",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465766.5836768553,
+        "origin_y": 3670690.3855520934,
+        "azimuth_deg": 236.2,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 39,
+        "usgs_beach_width_m": 15.7,
+        "usgs_mean_shoreline_x": 465753.49097779155,
+        "usgs_mean_shoreline_y": 3670681.6365148956,
+        "stl_seasonal_excursion_m": 10.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T039",
+        "name": "Transect CA_S017_T039",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3671861,
+            33.1744825
+          ],
+          [
+            -117.36985365988618,
+            33.17296926025538
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T040",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465709.90907200094,
+        "origin_y": 3670770.585007241,
+        "azimuth_deg": 237.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 40,
+        "usgs_beach_width_m": 20.2,
+        "usgs_mean_shoreline_x": 465692.8558870246,
+        "usgs_mean_shoreline_y": 3670759.71025938,
+        "stl_seasonal_excursion_m": 11.7,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T040",
+        "name": "Transect CA_S017_T040",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.367797,
+            33.1752041
+          ],
+          [
+            -117.37050470919365,
+            33.17374213131323
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T041",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465652.08428152464,
+        "origin_y": 3670852.1924163573,
+        "azimuth_deg": 234.2,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 41,
+        "usgs_beach_width_m": 23.0,
+        "usgs_mean_shoreline_x": 465633.43723506917,
+        "usgs_mean_shoreline_y": 3670838.763495291,
+        "stl_seasonal_excursion_m": 11.5,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T041",
+        "name": "Transect CA_S017_T041",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.36842030000001,
+            33.17593836
+          ],
+          [
+            -117.37102345628591,
+            33.174347726049334
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T042",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465613.6522713306,
+        "origin_y": 3670949.602257267,
+        "azimuth_deg": 230.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 42,
+        "usgs_beach_width_m": 52.6,
+        "usgs_mean_shoreline_x": 465572.8308439068,
+        "usgs_mean_shoreline_y": 3670916.4931329438,
+        "stl_seasonal_excursion_m": 9.3,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 302.6,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T042",
+        "name": "Transect CA_S017_T042",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3688362,
+            33.17681577
+          ],
+          [
+            -117.37134775467638,
+            33.17508689612955
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T043",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465526.4266865091,
+        "origin_y": 3671005.418092646,
+        "azimuth_deg": 232.2,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 43,
+        "usgs_beach_width_m": 19.4,
+        "usgs_mean_shoreline_x": 465511.04821353627,
+        "usgs_mean_shoreline_y": 3670993.514457363,
+        "stl_seasonal_excursion_m": 8.8,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T043",
+        "name": "Transect CA_S017_T043",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3697739,
+            33.17731645
+          ],
+          [
+            -117.3723094724673,
+            33.17565035873458
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T044",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465470.1015075734,
+        "origin_y": 3671085.802932897,
+        "azimuth_deg": 233.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 44,
+        "usgs_beach_width_m": 24.0,
+        "usgs_mean_shoreline_x": 465450.6503188392,
+        "usgs_mean_shoreline_y": 3671071.6532512023,
+        "stl_seasonal_excursion_m": 11.1,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T044",
+        "name": "Transect CA_S017_T044",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3703811,
+            33.17803972
+          ],
+          [
+            -117.37297434231628,
+            33.1764376052464
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T045",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465414.27453626605,
+        "origin_y": 3671167.0799299455,
+        "azimuth_deg": 234.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 45,
+        "usgs_beach_width_m": 27.1,
+        "usgs_mean_shoreline_x": 465392.24449759256,
+        "usgs_mean_shoreline_y": 3671151.2931479034,
+        "stl_seasonal_excursion_m": 11.5,
+        "stl_month_min": 3.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T045",
+        "name": "Transect CA_S017_T045",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.370983,
+            33.17877105
+          ],
+          [
+            -117.37359277977222,
+            33.177188013911405
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T046",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465355.2704286453,
+        "origin_y": 3671246.0148665463,
+        "azimuth_deg": 235.0,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 46,
+        "usgs_beach_width_m": 25.3,
+        "usgs_mean_shoreline_x": 465334.5408078985,
+        "usgs_mean_shoreline_y": 3671231.485248959,
+        "stl_seasonal_excursion_m": 12.3,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T046",
+        "name": "Transect CA_S017_T046",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37161889999999,
+            33.17948115
+          ],
+          [
+            -117.37424825956425,
+            33.177921168898365
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T047",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465298.2019055412,
+        "origin_y": 3671326.3047281797,
+        "azimuth_deg": 235.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 47,
+        "usgs_beach_width_m": 24.3,
+        "usgs_mean_shoreline_x": 465278.15598438424,
+        "usgs_mean_shoreline_y": 3671312.634224899,
+        "stl_seasonal_excursion_m": 11.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T047",
+        "name": "Transect CA_S017_T047",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3722341,
+            33.18020353
+          ],
+          [
+            -117.37488593797374,
+            33.17867066483306
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T048",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465238.49080195697,
+        "origin_y": 3671405.1320597134,
+        "azimuth_deg": 235.6,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 48,
+        "usgs_beach_width_m": 21.1,
+        "usgs_mean_shoreline_x": 465221.1082395928,
+        "usgs_mean_shoreline_y": 3671393.234907182,
+        "stl_seasonal_excursion_m": 8.2,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T048",
+        "name": "Transect CA_S017_T048",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3728776,
+            33.18091263
+          ],
+          [
+            -117.37552626225586,
+            33.17937586159754
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T049",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465184.2952310257,
+        "origin_y": 3671487.949002869,
+        "azimuth_deg": 234.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 49,
+        "usgs_beach_width_m": 24.1,
+        "usgs_mean_shoreline_x": 465164.6402250412,
+        "usgs_mean_shoreline_y": 3671474.0544969807,
+        "stl_seasonal_excursion_m": 7.7,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T049",
+        "name": "Transect CA_S017_T049",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3734621,
+            33.18165789
+          ],
+          [
+            -117.3760817413459,
+            33.18008631479424
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T050",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465124.371169617,
+        "origin_y": 3671566.6481206533,
+        "azimuth_deg": 234.1,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 50,
+        "usgs_beach_width_m": 20.7,
+        "usgs_mean_shoreline_x": 465107.61254316807,
+        "usgs_mean_shoreline_y": 3671554.5227734805,
+        "stl_seasonal_excursion_m": 7.3,
+        "stl_month_min": 7.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T050",
+        "name": "Transect CA_S017_T050",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37410789999998,
+            33.18236582
+          ],
+          [
+            -117.37670783552598,
+            33.180771250010544
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T051",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465066.1111128152,
+        "origin_y": 3671646.363852193,
+        "azimuth_deg": 234.1,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 51,
+        "usgs_beach_width_m": 18.8,
+        "usgs_mean_shoreline_x": 465050.9227818163,
+        "usgs_mean_shoreline_y": 3671635.3726804415,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T051",
+        "name": "Transect CA_S017_T051",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3747359,
+            33.18308297
+          ],
+          [
+            -117.37733584506933,
+            33.181488387009246
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T052",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 465005.94540132163,
+        "origin_y": 3671724.7275713943,
+        "azimuth_deg": 233.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 52,
+        "usgs_beach_width_m": 14.6,
+        "usgs_mean_shoreline_x": 464994.15908993065,
+        "usgs_mean_shoreline_y": 3671716.1400533104,
+        "stl_seasonal_excursion_m": 9.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T052",
+        "name": "Transect CA_S017_T052",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3753843,
+            33.18378786
+          ],
+          [
+            -117.37797761849978,
+            33.18218564195416
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T053",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464944.500102517,
+        "origin_y": 3671802.143941639,
+        "azimuth_deg": 233.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 53,
+        "usgs_beach_width_m": 7.1,
+        "usgs_mean_shoreline_x": 464938.7796196698,
+        "usgs_mean_shoreline_y": 3671797.9028128623,
+        "stl_seasonal_excursion_m": 9.3,
+        "stl_month_min": 2.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T053",
+        "name": "Transect CA_S017_T053",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3760464,
+            33.18448416
+          ],
+          [
+            -117.37862299991352,
+            33.182862959913095
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T054",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464887.2244831051,
+        "origin_y": 3671882.614479695,
+        "azimuth_deg": 233.1,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 54,
+        "usgs_beach_width_m": 9.0,
+        "usgs_mean_shoreline_x": 464879.98960748117,
+        "usgs_mean_shoreline_y": 3671877.202548423,
+        "stl_seasonal_excursion_m": 7.6,
+        "stl_month_min": 6.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T054",
+        "name": "Transect CA_S017_T054",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3766639,
+            33.18520814
+          ],
+          [
+            -117.37923037897534,
+            33.18357560545202
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T055",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464824.06089458446,
+        "origin_y": 3671958.655335802,
+        "azimuth_deg": 233.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 55,
+        "usgs_beach_width_m": 0.2,
+        "usgs_mean_shoreline_x": 464823.88332447014,
+        "usgs_mean_shoreline_y": 3671958.530697551,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T055",
+        "name": "Transect CA_S017_T055",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3773444,
+            33.18589197
+          ],
+          [
+            -117.37992101668374,
+            33.18427074329053
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T056",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464773.086591026,
+        "origin_y": 3672043.646044303,
+        "azimuth_deg": 234.0,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 56,
+        "usgs_beach_width_m": 11.9,
+        "usgs_mean_shoreline_x": 464763.4877065515,
+        "usgs_mean_shoreline_y": 3672036.6895032697,
+        "stl_seasonal_excursion_m": 7.1,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T056",
+        "name": "Transect CA_S017_T056",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37789450000001,
+            33.18665692
+          ],
+          [
+            -117.38049117814384,
+            33.185058458432444
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T057",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464717.35550212604,
+        "origin_y": 3672125.0998803717,
+        "azimuth_deg": 234.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 57,
+        "usgs_beach_width_m": 14.8,
+        "usgs_mean_shoreline_x": 464705.34570161044,
+        "usgs_mean_shoreline_y": 3672116.5179516478,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T057",
+        "name": "Transect CA_S017_T057",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3784955,
+            33.187389809999985
+          ],
+          [
+            -117.38110539705487,
+            33.18580661775555
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T058",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464660.74716674857,
+        "origin_y": 3672206.0228593685,
+        "azimuth_deg": 234.3,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 58,
+        "usgs_beach_width_m": 17.6,
+        "usgs_mean_shoreline_x": 464646.42881961446,
+        "usgs_mean_shoreline_y": 3672195.7630943535,
+        "stl_seasonal_excursion_m": 9.4,
+        "stl_month_min": 6.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T058",
+        "name": "Transect CA_S017_T058",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3791059,
+            33.18811788
+          ],
+          [
+            -117.38171251713128,
+            33.186530847383665
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T059",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464604.4307892249,
+        "origin_y": 3672287.5072185947,
+        "azimuth_deg": 233.0,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 59,
+        "usgs_beach_width_m": 22.4,
+        "usgs_mean_shoreline_x": 464586.5117656589,
+        "usgs_mean_shoreline_y": 3672273.990060093,
+        "stl_seasonal_excursion_m": 12.7,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T059",
+        "name": "Transect CA_S017_T059",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.37971320000001,
+            33.18885102
+          ],
+          [
+            -117.3822763345673,
+            33.18721465926844
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T060",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464549.8736839184,
+        "origin_y": 3672370.5975219356,
+        "azimuth_deg": 231.6,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 60,
+        "usgs_beach_width_m": 31.0,
+        "usgs_mean_shoreline_x": 464525.5484803916,
+        "usgs_mean_shoreline_y": 3672351.3487035017,
+        "stl_seasonal_excursion_m": 13.1,
+        "stl_month_min": 6.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T060",
+        "name": "Transect CA_S017_T060",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3803017,
+            33.1895987
+          ],
+          [
+            -117.3828165308284,
+            33.18791016127258
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T061",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464493.2970870587,
+        "origin_y": 3672451.779737683,
+        "azimuth_deg": 231.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 61,
+        "usgs_beach_width_m": 34.8,
+        "usgs_mean_shoreline_x": 464466.03620455536,
+        "usgs_mean_shoreline_y": 3672430.128199346,
+        "stl_seasonal_excursion_m": 12.7,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T061",
+        "name": "Transect CA_S017_T061",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3809118,
+            33.1903291
+          ],
+          [
+            -117.38342313085349,
+            33.18863686116372
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T062",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464437.63218102365,
+        "origin_y": 3672534.7583337696,
+        "azimuth_deg": 230.1,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 62,
+        "usgs_beach_width_m": 42.3,
+        "usgs_mean_shoreline_x": 464405.22460733145,
+        "usgs_mean_shoreline_y": 3672507.6522733644,
+        "stl_seasonal_excursion_m": 15.5,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T062",
+        "name": "Transect CA_S017_T062",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3815122,
+            33.19107573
+          ],
+          [
+            -117.38397361706454,
+            33.189332394964225
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T063",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464381.01679466874,
+        "origin_y": 3672617.5622450146,
+        "azimuth_deg": 228.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 63,
+        "usgs_beach_width_m": 48.6,
+        "usgs_mean_shoreline_x": 464344.4709191989,
+        "usgs_mean_shoreline_y": 3672585.452591573,
+        "stl_seasonal_excursion_m": 12.4,
+        "stl_month_min": 2.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T063",
+        "name": "Transect CA_S017_T063",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3821228,
+            33.19182075
+          ],
+          [
+            -117.38453283203962,
+            33.19002735988003
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T064",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464323.37209278333,
+        "origin_y": 3672699.0199228027,
+        "azimuth_deg": 228.2,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 64,
+        "usgs_beach_width_m": 55.2,
+        "usgs_mean_shoreline_x": 464282.2696361351,
+        "usgs_mean_shoreline_y": 3672662.2319894694,
+        "stl_seasonal_excursion_m": 13.5,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 305.2,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T064",
+        "name": "Transect CA_S017_T064",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3827444,
+            33.19255359
+          ],
+          [
+            -117.38517718268629,
+            33.19071118213241
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T065",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464265.49522346404,
+        "origin_y": 3672780.449987889,
+        "azimuth_deg": 227.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 65,
+        "usgs_beach_width_m": 64.2,
+        "usgs_mean_shoreline_x": 464218.0028548298,
+        "usgs_mean_shoreline_y": 3672737.2532846457,
+        "stl_seasonal_excursion_m": 12.8,
+        "stl_month_min": 2.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 314.2,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T065",
+        "name": "Transect CA_S017_T065",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3833685,
+            33.19328617
+          ],
+          [
+            -117.38585324643225,
+            33.191371114815
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S017_T066",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464208.36522385286,
+        "origin_y": 3672861.933110422,
+        "azimuth_deg": 227.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 17,
+        "coastsat_transect": 66,
+        "usgs_beach_width_m": 69.5,
+        "usgs_mean_shoreline_x": 464156.954257412,
+        "usgs_mean_shoreline_y": 3672815.173432016,
+        "stl_seasonal_excursion_m": 14.3,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 319.5,
+        "qa_origin_ok": true,
+        "id": "CA_S017_T066",
+        "name": "Transect CA_S017_T066",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38398460000002,
+            33.19401925
+          ],
+          [
+            -117.38651126591503,
+            33.192071878456105
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T000",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464146.69601409225,
+        "origin_y": 3672922.927483752,
+        "azimuth_deg": 240.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 0,
+        "usgs_beach_width_m": 56.6,
+        "usgs_mean_shoreline_x": 464097.3958505799,
+        "usgs_mean_shoreline_y": 3672895.030870919,
+        "stl_seasonal_excursion_m": 12.2,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 306.6,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T000",
+        "name": "Transect CA_S018_T000",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3846486,
+            33.19456737
+          ],
+          [
+            -117.38750543091099,
+            33.19319669364758
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T001",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464103.04532800865,
+        "origin_y": 3673011.7598206997,
+        "azimuth_deg": 240.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 1,
+        "usgs_beach_width_m": 72.5,
+        "usgs_mean_shoreline_x": 464039.97734161944,
+        "usgs_mean_shoreline_y": 3672976.072616127,
+        "stl_seasonal_excursion_m": 8.8,
+        "stl_month_min": 1.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 322.5,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T001",
+        "name": "Transect CA_S018_T001",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3851204,
+            33.19536718
+          ],
+          [
+            -117.38812540048218,
+            33.19392540847882
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T002",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 464041.644667066,
+        "origin_y": 3673092.066778817,
+        "azimuth_deg": 239.0,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 2,
+        "usgs_beach_width_m": 62.1,
+        "usgs_mean_shoreline_x": 463988.3684350514,
+        "usgs_mean_shoreline_y": 3673060.070025328,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 312.1,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T002",
+        "name": "Transect CA_S018_T002",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3857823,
+            33.1960895
+          ],
+          [
+            -117.3886459701552,
+            33.19463068414848
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T003",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463971.89385697746,
+        "origin_y": 3673167.4492690233,
+        "azimuth_deg": 235.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 3,
+        "usgs_beach_width_m": 44.2,
+        "usgs_mean_shoreline_x": 463935.47719858156,
+        "usgs_mean_shoreline_y": 3673142.378435554,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T003",
+        "name": "Transect CA_S018_T003",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38653360000002,
+            33.19676712
+          ],
+          [
+            -117.38917609739133,
+            33.19522229874374
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T004",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463927.8183351291,
+        "origin_y": 3673259.131066803,
+        "azimuth_deg": 233.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 4,
+        "usgs_beach_width_m": 61.8,
+        "usgs_mean_shoreline_x": 463878.21570841066,
+        "usgs_mean_shoreline_y": 3673222.27093398,
+        "stl_seasonal_excursion_m": 6.2,
+        "stl_month_min": 7.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 9,
+        "transect_length_m": 311.8,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T004",
+        "name": "Transect CA_S018_T004",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38701010000001,
+            33.19759261
+          ],
+          [
+            -117.3896882282309,
+            33.195907407929134
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T005",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463871.30237972294,
+        "origin_y": 3673341.2980624987,
+        "azimuth_deg": 232.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 5,
+        "usgs_beach_width_m": 65.9,
+        "usgs_mean_shoreline_x": 463819.0496086123,
+        "usgs_mean_shoreline_y": 3673301.0599755067,
+        "stl_seasonal_excursion_m": 0.0,
+        "stl_month_min": null,
+        "stl_month_max": null,
+        "kmeans_season_cluster": 11,
+        "transect_length_m": 315.9,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T005",
+        "name": "Transect CA_S018_T005",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38761970000002,
+            33.19833186
+          ],
+          [
+            -117.39029719819185,
+            33.19658493257061
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T006",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463811.3026920078,
+        "origin_y": 3673423.8087144326,
+        "azimuth_deg": 229.0,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 6,
+        "usgs_beach_width_m": 68.0,
+        "usgs_mean_shoreline_x": 463759.9755186854,
+        "usgs_mean_shoreline_y": 3673379.268116032,
+        "stl_seasonal_excursion_m": 14.3,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 318.0,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T006",
+        "name": "Transect CA_S018_T006",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3882667,
+            33.19907409000001
+          ],
+          [
+            -117.39083321071074,
+            33.19718424239057
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T007",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463751.33180651173,
+        "origin_y": 3673506.2708697356,
+        "azimuth_deg": 226.7,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 7,
+        "usgs_beach_width_m": 70.9,
+        "usgs_mean_shoreline_x": 463699.7284768326,
+        "usgs_mean_shoreline_y": 3673457.6129314657,
+        "stl_seasonal_excursion_m": 16.3,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 320.9,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T007",
+        "name": "Transect CA_S018_T007",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.38891340000002,
+            33.19981588000001
+          ],
+          [
+            -117.3914102015617,
+            33.19782293831703
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T008",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463653.4228506146,
+        "origin_y": 3673550.0881810957,
+        "azimuth_deg": 226.1,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 8,
+        "usgs_beach_width_m": 19.7,
+        "usgs_mean_shoreline_x": 463639.20442526456,
+        "usgs_mean_shoreline_y": 3673536.3970944076,
+        "stl_seasonal_excursion_m": 21.6,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T008",
+        "name": "Transect CA_S018_T008",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3899656,
+            33.20020782
+          ],
+          [
+            -117.39227644279691,
+            33.19832421190236
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T009",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463597.6102796636,
+        "origin_y": 3673634.8407353293,
+        "azimuth_deg": 224.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 9,
+        "usgs_beach_width_m": 31.3,
+        "usgs_mean_shoreline_x": 463575.52157387364,
+        "usgs_mean_shoreline_y": 3673612.65794027,
+        "stl_seasonal_excursion_m": 28.3,
+        "stl_month_min": 5.0,
+        "stl_month_max": 10.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 300.0,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T009",
+        "name": "Transect CA_S018_T009",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39056780000001,
+            33.20097040000001
+          ],
+          [
+            -117.39283122129368,
+            33.19904650832965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T010",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463714.28032853664,
+        "origin_y": 3673896.5702819834,
+        "azimuth_deg": 224.3,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 10,
+        "usgs_beach_width_m": 293.5,
+        "usgs_mean_shoreline_x": 463509.35143658443,
+        "usgs_mean_shoreline_y": 3673686.5061013107,
+        "stl_seasonal_excursion_m": 24.6,
+        "stl_month_min": 4.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 543.5,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T010",
+        "name": "Transect CA_S018_T010",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3893265,
+            33.20333509
+          ],
+          [
+            -117.39338351133746,
+            33.199813741780716
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S018_T011",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463638.70728776685,
+        "origin_y": 3673960.5001329174,
+        "azimuth_deg": 224.3,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 18,
+        "coastsat_transect": 11,
+        "usgs_beach_width_m": 274.4,
+        "usgs_mean_shoreline_x": 463447.09222210484,
+        "usgs_mean_shoreline_y": 3673764.08180923,
+        "stl_seasonal_excursion_m": 27.6,
+        "stl_month_min": 3.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 6,
+        "transect_length_m": 524.4,
+        "qa_origin_ok": true,
+        "id": "CA_S018_T011",
+        "name": "Transect CA_S018_T011",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3901399,
+            33.20390919
+          ],
+          [
+            -117.39405433656991,
+            33.20051156810077
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T000",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463453.1313610472,
+        "origin_y": 3673893.2649908895,
+        "azimuth_deg": 234.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 0,
+        "usgs_beach_width_m": 104.9,
+        "usgs_mean_shoreline_x": 463367.90989727766,
+        "usgs_mean_shoreline_y": 3673832.182554921,
+        "stl_seasonal_excursion_m": 10.4,
+        "stl_month_min": 7.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 354.9,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T000",
+        "name": "Transect CA_S019_T000",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39212829999998,
+            33.20329648
+          ],
+          [
+            -117.39521605900894,
+            33.2014232223275
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T001",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463408.31905671506,
+        "origin_y": 3673982.625011406,
+        "azimuth_deg": 234.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 1,
+        "usgs_beach_width_m": 122.5,
+        "usgs_mean_shoreline_x": 463308.7901100728,
+        "usgs_mean_shoreline_y": 3673911.285110947,
+        "stl_seasonal_excursion_m": 13.1,
+        "stl_month_min": 7.0,
+        "stl_month_max": 12.0,
+        "kmeans_season_cluster": 9,
+        "transect_length_m": 372.5,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T001",
+        "name": "Transect CA_S019_T001",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39261270000002,
+            33.20410098
+          ],
+          [
+            -117.39585360046642,
+            33.20213481030972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T002",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463331.0927048062,
+        "origin_y": 3674054.7975369277,
+        "azimuth_deg": 230.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 2,
+        "usgs_beach_width_m": 107.6,
+        "usgs_mean_shoreline_x": 463247.5986220104,
+        "usgs_mean_shoreline_y": 3673986.966757981,
+        "stl_seasonal_excursion_m": 15.2,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 9,
+        "transect_length_m": 357.6,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T002",
+        "name": "Transect CA_S019_T002",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3934442,
+            33.20474935
+          ],
+          [
+            -117.3964125976115,
+            33.20270565358705
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T003",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463279.4552432346,
+        "origin_y": 3674155.2749372018,
+        "azimuth_deg": 224.4,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 3,
+        "usgs_beach_width_m": 134.1,
+        "usgs_mean_shoreline_x": 463185.650351805,
+        "usgs_mean_shoreline_y": 3674059.437649918,
+        "stl_seasonal_excursion_m": 16.4,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 384.1,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T003",
+        "name": "Transect CA_S019_T003",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3940023,
+            33.20565389
+          ],
+          [
+            -117.39687459128548,
+            33.20316941562018
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T004",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463212.58545408084,
+        "origin_y": 3674239.7222735817,
+        "azimuth_deg": 220.8,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 4,
+        "usgs_beach_width_m": 143.0,
+        "usgs_mean_shoreline_x": 463119.2090015663,
+        "usgs_mean_shoreline_y": 3674131.454766097,
+        "stl_seasonal_excursion_m": 17.9,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 393.0,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T004",
+        "name": "Transect CA_S019_T004",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3947232,
+            33.20641332
+          ],
+          [
+            -117.3974663783738,
+            33.203721149478284
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T005",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463124.1774973944,
+        "origin_y": 3674294.33200559,
+        "azimuth_deg": 218.9,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 5,
+        "usgs_beach_width_m": 117.2,
+        "usgs_mean_shoreline_x": 463050.6234716305,
+        "usgs_mean_shoreline_y": 3674203.061405045,
+        "stl_seasonal_excursion_m": 19.2,
+        "stl_month_min": 5.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 7,
+        "transect_length_m": 367.2,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T005",
+        "name": "Transect CA_S019_T005",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.395674,
+            33.20690288
+          ],
+          [
+            -117.39813646687641,
+            33.20431737517918
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "transect_id": "CA_S019_T006",
+        "region": "San_Diego_Pilot",
+        "beach_name": "<NA>",
+        "beach_type": "<NA>",
+        "crs_epsg": 26911,
+        "origin_x": 463031.9750234598,
+        "origin_y": 3674340.9601453766,
+        "azimuth_deg": 217.5,
+        "slope_tan_beta": null,
+        "slope_uncert": null,
+        "mhw_navd88_m": null,
+        "coastsat_section": 19,
+        "coastsat_transect": 6,
+        "usgs_beach_width_m": 89.8,
+        "usgs_mean_shoreline_x": 462977.248440887,
+        "usgs_mean_shoreline_y": 3674269.746522911,
+        "stl_seasonal_excursion_m": 12.6,
+        "stl_month_min": 6.0,
+        "stl_month_max": 11.0,
+        "kmeans_season_cluster": 8,
+        "transect_length_m": 339.8,
+        "qa_origin_ok": true,
+        "id": "CA_S019_T006",
+        "name": "Transect CA_S019_T006",
+        "type": "standard",
+        "status": "Active (USGS QA Passed)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.39666520000002,
+            33.20732031
+          ],
+          [
+            -117.39887369271386,
+            33.20488162852044
+          ]
+        ]
+      }
+    }
+  ]
+}

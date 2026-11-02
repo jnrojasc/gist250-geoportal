@@ -1,0 +1,37 @@
+[
+  {
+    "month": "October 2023",
+    "cloudCover": 15.7,
+    "sceneCount": 6
+  },
+  {
+    "month": "November 2023",
+    "cloudCover": 21.9,
+    "sceneCount": 5
+  },
+  {
+    "month": "December 2023",
+    "cloudCover": 38.1,
+    "sceneCount": 11
+  },
+  {
+    "month": "January 2024",
+    "cloudCover": 48.4,
+    "sceneCount": 11
+  },
+  {
+    "month": "February 2024",
+    "cloudCover": 11.9,
+    "sceneCount": 6
+  },
+  {
+    "month": "March 2024",
+    "cloudCover": 50.2,
+    "sceneCount": 12
+  },
+  {
+    "month": "April 2024",
+    "cloudCover": 8.8,
+    "sceneCount": 5
+  }
+]

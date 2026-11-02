@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIST 250 - Coastal Change Monitoring | Oceanside, CA</title>
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    
+    <!-- Chart.js for Metrics Visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- UCSC Branded Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    
+    <!-- Header with UCSC Coastal Systems Branding -->
+    <header class="header">
+        <div class="header-branding">
+            <img src="assets/logo.png" alt="UCSC Coastal Systems" class="header-logo" onerror="this.style.display='none'">
+            <div class="header-title-box">
+                <h1>GIST 250</h1>
+                <p>Coastal Change Monitoring &mdash; Oceanside, California</p>
+            </div>
+        </div>
+        <div class="header-badge">
+            <span class="live-indicator"></span>
+            <span>PlanetScope (3m) + S2 Baseline</span>
+        </div>
+    </header>
+    
+    <!-- Mobile Sidebar Toggle -->
+    <button class="toggle-btn" id="sidebar-toggle">☰ Pipeline &amp; Data</button>
+    
+    <!-- Main Map & Dashboard Layout -->
+    <div id="map-container">
+        <!-- Interactive Leaflet Map -->
+        <div id="map"></div>
+        
+        <!-- Sidebar: Pipeline Explanation, Metrics, and Export -->
+        <aside class="sidebar" id="sidebar">
+            <h3>🌊 How This Works</h3>
+            
+            <div class="pipeline-explainer" id="pipeline-steps">
+                <!-- Dynamically populated by PipelineExplainer -->
+            </div>
+            
+            <div class="metrics-panel">
+                <h3>📊 Real-Time Metrics</h3>
+                
+                <div class="controls">
+                    <button class="btn" id="refresh-data">🔄 Refresh Data (Weekly)</button>
+                    <button class="btn btn-secondary" id="toggle-technical">⚙️ Technical View</button>
+                </div>
+                
+                <div class="metrics-summary-chips">
+                    <div class="metric-chip">
+                        <div class="value" id="metric-total-events">8</div>
+                        <div class="label">El Niño Events</div>
+                    </div>
+                    <div class="metric-chip">
+                        <div class="value" id="metric-recovery-rate">75%</div>
+                        <div class="label">Recovery Rate</div>
+                    </div>
+                </div>
+                
+                <div class="chart-container">
+                    <h4>Cloud Cover by Month (%)</h4>
+                    <canvas id="cloud-cover-chart"></canvas>
+                </div>
+                
+                <div class="chart-container">
+                    <h4>Beach Change Events (2023–24)</h4>
+                    <canvas id="change-events-chart"></canvas>
+                </div>
+            </div>
+            
+            <div class="download-section">
+                <h3>💾 Export Data</h3>
+                <p>Download Oceanside coastal monitoring records:</p>
+                <div class="download-buttons">
+                    <button class="btn" id="download-geojson">GeoJSON</button>
+                    <button class="btn btn-secondary" id="download-csv">CSV Log</button>
+                </div>
+            </div>
+        </aside>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p><strong>GIST 250 Project | UCSC Coastal Systems Analysis</strong> &bull; Author: <a href="https://github.com/JamesColET" target="_blank" rel="noopener" style="color: inherit; text-decoration: underline;">James Rojas (JamesColET)</a></p>
+        <p>Sensors: PlanetScope (UDM2 Screened) &amp; Sentinel-2 Baseline &bull; Last Updated: <span id="last-update">Loading...</span></p>
+    </footer>
+    
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <!-- Modular Application Scripts -->
+    <script src="js/pipeline-explainer.js"></script>
+    <script src="js/metrics.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/data-fetcher.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
