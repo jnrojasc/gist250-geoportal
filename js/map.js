@@ -42,27 +42,32 @@ class GeoportalMap {
         this.activeProductGroup = L.layerGroup().addTo(this.map);
         this.selectedTransectHighlight = L.layerGroup().addTo(this.map);
 
-        // Georeferenced Satellite Sensor Overlays (PlanetScope 3m, Sentinel-2 10m, Landsat 30m)
+        // Georeferenced Satellite Sensor Overlays (PlanetScope 3m Full & ROI, Sentinel-2 10m Full, Landsat 30m Full)
         this.satOverlays = {
+            ps_visible_full: L.imageOverlay(
+                'assets/rasters/ps_3m_visible_full.png',
+                [[33.165145, -117.410889], [33.211116, -117.355957]],
+                { opacity: 0.98, interactive: false }
+            ),
             ps_aligned: L.imageOverlay(
                 'assets/rasters/ps_3m_rgb_aligned.png',
-                [[33.166686, -117.400761], [33.209177, -117.361559]],
+                [[33.165865, -117.402214], [33.210129, -117.359789]],
                 { opacity: 0.96, interactive: false }
             ),
             ps_raw: L.imageOverlay(
                 'assets/rasters/ps_3m_rgb_raw_unaligned.png',
-                [[33.166686, -117.400761], [33.209177, -117.361559]],
+                [[33.165865, -117.402214], [33.210129, -117.359789]],
                 { opacity: 0.96, interactive: false }
             ),
             s2_ref: L.imageOverlay(
                 'assets/rasters/s2_10m_rgb_ref.png',
-                [[33.166640, -117.400772], [33.209222, -117.361585]],
-                { opacity: 0.96, interactive: false }
+                [[33.165837, -117.402278], [33.210129, -117.359738]],
+                { opacity: 0.98, interactive: false }
             ),
             landsat_30m: L.imageOverlay(
                 'assets/rasters/landsat_30m_rgb.png',
-                [[33.166539, -117.400987], [33.209312, -117.361414]],
-                { opacity: 0.96, interactive: false }
+                [[33.165746, -117.402278], [33.210130, -117.359647]],
+                { opacity: 0.98, interactive: false }
             )
         };
         this.currentSatKey = 'none';
@@ -75,10 +80,11 @@ class GeoportalMap {
         const overlayMaps = {
             '📏 USGS Baseline Transects (55)': this.baseTransectsLayer,
             '🎯 Active Step Geographical Product': this.activeProductGroup,
-            '🛰️ PlanetScope 3m (AROSICS Aligned |dr|=1.86m)': this.satOverlays.ps_aligned,
-            '⚠️ PlanetScope 3m (Before AROSICS — Raw Jitter)': this.satOverlays.ps_raw,
-            '🛰️ Sentinel-2 10m (Orthorectified Reference)': this.satOverlays.s2_ref,
-            '🛰️ Landsat 8/9 30m (Coarse 30m Pixel)': this.satOverlays.landsat_30m
+            '🛰️ PlanetScope 3m (Full Visible Scene — Feb 10, 2024)': this.satOverlays.ps_visible_full,
+            '🛰️ Landsat 8/9 30m (Full Visible Scene — Unprocessed)': this.satOverlays.landsat_30m,
+            '🛰️ Sentinel-2 10m (Full Visible Scene — Feb 12, 2024)': this.satOverlays.s2_ref,
+            '🎯 PlanetScope 3m ROI Chip (AROSICS Aligned |dr|=1.86m)': this.satOverlays.ps_aligned,
+            '⚠️ PlanetScope 3m ROI Chip (Before AROSICS Jitter)': this.satOverlays.ps_raw
         };
 
         L.control.layers(baseMaps, overlayMaps, { position: 'topleft' }).addTo(this.map);
