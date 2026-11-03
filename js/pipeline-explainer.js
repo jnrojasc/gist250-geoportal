@@ -47,21 +47,21 @@ class PipelineExplainer {
             },
             {
                 number: 5,
-                title: '5. Tidal Correction',
-                tool: 'FES2022 / NOAA Tide + CoastSat.slope (per-transect)',
-                whatWeAdd: 'Per-transect beach-face slope (tan β ≥ 0.020), not one global slope',
-                geoProductTitle: 'Horizontal Tidal Shift Vectors (x_raw → x_MHW) & Foreshore Slopes',
-                geoProductExplanation: 'Visualizes the cross-shore horizontal correction vector Δx = (z_tide - z_MHW) / tan(β) along each transect that translates the instantaneous waterline to the standard Mean High Water datum (1.344 m NAVD88).',
-                technical: 'Applies physically clamped per-transect foreshore slopes (0.020 <= tan_beta <= 0.25) validated against Scripps RTK-GPS beach profiles. Eliminates extreme horizontal blow-ups on flat dissipative bars.'
+                title: '5. Tidal + Wave Correction',
+                tool: 'NOAA Tide + CDIP 045 Waves + CoastSat.slope',
+                whatWeAdd: 'Stockdon R2 wave setup/runup + unsupervised CoastSat.slope per transect',
+                geoProductTitle: 'Horizontal Tide + Wave Shift Vectors (x_raw → x_MHW) & Foreshore Slopes',
+                geoProductExplanation: 'Visualizes the cross-shore horizontal correction vector Δx = (z_tide + dz_wave - z_MHW) / tan(β) using CDIP Station 045 (NDBC 46224) half-hourly wave records and per-transect CoastSat.slope.',
+                technical: 'Integrates 10,678 CDIP 045 wave records (mean Hs = 1.00 m, max Hs = 3.19 m) with Stockdon et al. (2006) wave setup/runup and Vos et al. (2020) CoastSat.slope (0.020 <= tan_beta <= 0.200).'
             },
             {
                 number: 6,
                 title: '6. Validate vs. Ground Truth',
-                tool: 'Scripps RTK-GPS Wheelie + USGS / Landsat / S2',
-                whatWeAdd: 'Head-to-head multi-sensor validation & uncertainty budget per transect',
+                tool: 'Scripps RTK-GPS Wheelie + USGS / Landsat / S2 / PS (All 6 Surveys)',
+                whatWeAdd: 'Head-to-head multi-sensor validation across all 6 winter RTK-GPS surveys',
                 geoProductTitle: '4-Way Shoreline Overlay: Scripps RTK-GPS vs. PS vs. S2 vs. Landsat',
-                geoProductExplanation: 'Simultaneously maps (1) Scripps RTK-GPS ground-truth MHW surveys, (2) PlanetScope 3 m MHW shorelines, (3) Sentinel-2 10 m MHW shorelines, and (4) the Landsat/USGS historical baseline across all transects.',
-                technical: 'Evaluated across 7 monthly Scripps RTK-GPS surveys (Oct 2023 – Apr 2024): Sentinel-2 v2 achieves RMSE = 19.08 m (MAE = 14.08 m); PlanetScope v2 achieves RMSE = 20.07 m (MAE = 14.09 m) with 2.4x higher temporal density.'
+                geoProductExplanation: 'Simultaneously maps (1) Scripps RTK-GPS ground-truth MHW surveys, (2) PlanetScope 3 m v4 MHW shorelines, (3) Sentinel-2 10 m v4 MHW shorelines, and (4) the Landsat/USGS historical baseline across all 6 valid survey dates (Nov 2023 – Apr 2024).',
+                technical: 'Evaluated across all 6 valid Scripps RTK-GPS surveys: Sentinel-2 v4 achieves RMSE = 12.45 m (MAE = 7.44 m); PlanetScope v4 achieves RMSE = 16.71 m across all 6 surveys (5.8 m MAE at mid/high tide).'
             },
             {
                 number: 7,

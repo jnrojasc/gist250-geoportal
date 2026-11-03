@@ -93,13 +93,13 @@
                     <div class="survey-filter-box">
                         <label for="survey-date-select">RTK Survey Window:</label>
                         <select id="survey-date-select">
-                            <option value="2024-02-09" selected>Feb 9–10, 2024 (Winter High Tide +1.61m)</option>
-                            <option value="2024-04-05">Apr 2–5, 2024 (Spring Low Tide -0.08m)</option>
-                            <option value="2023-11-26">Nov 24–26, 2023 (Early Winter)</option>
-                            <option value="2023-12-26">Dec 24–26, 2023 (Pre-Peak Swell)</option>
-                            <option value="2024-01-25">Jan 23–25, 2024 (Post-Extreme Storm)</option>
-                            <option value="2024-03-08">Mar 8, 2024 (Late Winter)</option>
-                            <option value="ALL">All 7 RTK Surveys Combined</option>
+                            <option value="2024-02-09" selected>Feb 9–10, 2024 (PS + S2 + RTK | High Tide +1.61m)</option>
+                            <option value="2024-04-05">Apr 2–7, 2024 (PS + S2 + RTK | Spring Tide)</option>
+                            <option value="2023-11-26">Nov 17–26, 2023 (PS + S2 + RTK | Early Winter)</option>
+                            <option value="2023-12-26">Dec 17–26, 2023 (PS + S2 + RTK | Pre-Peak Swell)</option>
+                            <option value="2024-01-25">Jan 23–30, 2024 (PS + S2 + RTK | Post-Extreme Storm)</option>
+                            <option value="2024-03-08">Mar 8–16, 2024 (PS + S2 + RTK | Late Winter)</option>
+                            <option value="ALL">All 6 RTK Survey Windows Combined (PS + S2 + RTK)</option>
                         </select>
                     </div>
                 </div>
@@ -139,20 +139,20 @@
 
                 <div class="metrics-summary-chips">
                     <div class="metric-chip">
-                        <div class="value">19.08 m</div>
-                        <div class="label">Sentinel-2 v2 RMSE</div>
+                        <div class="value">12.45 m</div>
+                        <div class="label">Sentinel-2 v4 RMSE</div>
                     </div>
                     <div class="metric-chip">
-                        <div class="value">20.07 m</div>
-                        <div class="label">PlanetScope v2 RMSE</div>
+                        <div class="value">16.71 m</div>
+                        <div class="label">PlanetScope v4 RMSE</div>
                     </div>
                     <div class="metric-chip">
-                        <div class="value">~24.5 m</div>
-                        <div class="label">Landsat 30m CA Lit.</div>
+                        <div class="value">1.86 m</div>
+                        <div class="label">AROSICS Mean Shift</div>
                     </div>
                     <div class="metric-chip">
-                        <div class="value">2.4×</div>
-                        <div class="label">PS Temporal Gain</div>
+                        <div class="value">6 / 6</div>
+                        <div class="label">RTK Surveys w/ PS+S2</div>
                     </div>
                 </div>
 
@@ -265,20 +265,21 @@
                     <div class="fig-header">
                         <h4>Validation &amp; RTK Beach Profile QA Figures</h4>
                         <select id="qa-figure-select">
-                            <option value="multisensor_v2_coastsat_scatter.png" data-caption="Head-to-head MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) & PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.">1. Multi-Sensor vs. RTK Scatter (v2)</option>
-                            <option value="qa_profiles_20240209.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW (1.344 m) intersections on Feb 9, 2024.">2. Scripps RTK Profiles — Feb 9, 2024</option>
-                            <option value="qa_profiles_20240405.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Apr 5, 2024.">3. Scripps RTK Profiles — Apr 5, 2024</option>
-                            <option value="qa_profiles_20231126.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Nov 26, 2023.">4. Scripps RTK Profiles — Nov 26, 2023</option>
-                            <option value="multisensor_residual_vs_tide.png" data-caption="Satellite MHW residual error vs. overpass tide level (z_tide) showing removal of tidal bias after slope clamping.">5. Residual Error vs. Overpass Tide</option>
-                            <option value="oceanside_multisensor_events_timeseries.png" data-caption="Oceanside 2023–24 El Niño median MHW time series and storm retreat/recovery events.">6. El Niño Storm Events Time Series</option>
-                            <option value="fig_udm2_usable_days_scene.png" data-caption="PlanetScope UDM2 empirical cloud/marine-layer usability audit across San Diego benchmark sites.">7. UDM2 Usable Days Audit</option>
+                            <option value="fig_step3_wave_slope_validation.png" data-caption="Step 3/4 Final Validation: CDIP 045 Wave Runup + CoastSat.slope + AROSICS reduces Sentinel-2 RMSE to 12.45 m and PlanetScope RMSE to 16.71 m.">1. Step 3/4 Wave + CoastSat.slope Validation (v4)</option>
+                            <option value="fig_arosics_shift_vectors.png" data-caption="Step 2 Local AROSICS Sub-Pixel Co-Registration across 28 PlanetScope 3 m chips (mean shift |dr| = 1.86 m).">2. Step 2 AROSICS Co-Registration Shift Vectors</option>
+                            <option value="oceanside_multisensor_events_v4_timeseries.png" data-caption="Step 4 Multi-Sensor Storm Retreat & Recovery Time Series with CDIP 045 Significant Wave Height (Hs) and Stockdon Runup (R2).">3. Step 4 Multi-Sensor Storm Events + CDIP Waves (v4)</option>
+                            <option value="multisensor_v2_coastsat_scatter.png" data-caption="Step 1 MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) & PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.">4. Step 1 Multi-Sensor vs. RTK Scatter (v2)</option>
+                            <option value="qa_profiles_20240209.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW (1.344 m) intersections on Feb 9, 2024.">5. Scripps RTK Profiles — Feb 9, 2024</option>
+                            <option value="qa_profiles_20240405.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Apr 5, 2024.">6. Scripps RTK Profiles — Apr 5, 2024</option>
+                            <option value="qa_profiles_20231126.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Nov 26, 2023.">7. Scripps RTK Profiles — Nov 26, 2023</option>
+                            <option value="fig_udm2_usable_days_scene.png" data-caption="PlanetScope UDM2 empirical cloud/marine-layer usability audit across San Diego benchmark sites.">8. UDM2 Usable Days Audit</option>
                         </select>
                     </div>
                     <div class="qa-figure-box">
-                        <a id="qa-figure-link" href="assets/figures/multisensor_v2_coastsat_scatter.png" target="_blank" rel="noopener">
-                            <img id="qa-figure-img" src="assets/figures/multisensor_v2_coastsat_scatter.png" alt="Validation QA Figure" />
+                        <a id="qa-figure-link" href="assets/figures/fig_step3_wave_slope_validation.png" target="_blank" rel="noopener">
+                            <img id="qa-figure-img" src="assets/figures/fig_step3_wave_slope_validation.png" alt="Validation QA Figure" />
                         </a>
-                        <p id="qa-figure-caption">Head-to-head MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) &amp; PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.</p>
+                        <p id="qa-figure-caption">Step 3/4 Final Validation: CDIP 045 Wave Runup + CoastSat.slope + AROSICS reduces Sentinel-2 RMSE to 12.45 m and PlanetScope RMSE to 16.71 m.</p>
                     </div>
                 </div>
             </div>
@@ -304,10 +305,10 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     
     <!-- Modular Application Scripts with Cache-Busting Version Query Strings -->
-    <script src="js/pipeline-explainer.js?v=2.5.0"></script>
-    <script src="js/metrics.js?v=2.5.0"></script>
-    <script src="js/map.js?v=2.5.0"></script>
-    <script src="js/data-fetcher.js?v=2.5.0"></script>
-    <script src="js/main.js?v=2.5.0"></script>
+    <script src="js/pipeline-explainer.js?v=4.0.0"></script>
+    <script src="js/metrics.js?v=4.0.0"></script>
+    <script src="js/map.js?v=4.0.0"></script>
+    <script src="js/data-fetcher.js?v=4.0.0"></script>
+    <script src="js/main.js?v=4.0.0"></script>
 </body>
 </html>

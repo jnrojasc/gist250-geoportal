@@ -1,0 +1,789 @@
+{
+  "type": "FeatureCollection",
+  "name": "step2_coregistration",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_01",
+        "transect_id": "CA_S017_T033",
+        "scene_date": "2023-10-04",
+        "item_id": "20231004_173923_19_2451",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.03,
+        "dy_m": 1.46,
+        "shift_m": 1.78,
+        "shift_px": 0.59,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3634395,
+            33.1701895
+          ],
+          [
+            -117.3637165,
+            33.1705171
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_02",
+        "transect_id": "CA_S017_T035",
+        "scene_date": "2023-10-06",
+        "item_id": "20231006_174312_85_24d0",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -0.51,
+        "dy_m": 0.19,
+        "shift_m": 0.54,
+        "shift_px": 0.18,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3646597,
+            33.1716472
+          ],
+          [
+            -117.3647958,
+            33.17169
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_03",
+        "transect_id": "CA_S017_T037",
+        "scene_date": "2023-10-10",
+        "item_id": "20231010_174216_02_24ce",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.65,
+        "dy_m": -1.05,
+        "shift_m": 1.23,
+        "shift_px": 0.41,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3659437,
+            33.1730687
+          ],
+          [
+            -117.3657692,
+            33.1728321
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_04",
+        "transect_id": "CA_S017_T039",
+        "scene_date": "2023-10-26",
+        "item_id": "20231026_174257_04_24d0",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.4,
+        "dy_m": 0.87,
+        "shift_m": 1.65,
+        "shift_px": 0.55,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3671861,
+            33.1744825
+          ],
+          [
+            -117.367562,
+            33.1746786
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_05",
+        "transect_id": "CA_S017_T041",
+        "scene_date": "2023-11-09",
+        "item_id": "20231109_182245_90_249c",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.11,
+        "dy_m": 1.29,
+        "shift_m": 1.7,
+        "shift_px": 0.57,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3684203,
+            33.1759384
+          ],
+          [
+            -117.3687203,
+            33.1762274
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_06",
+        "transect_id": "CA_S017_T043",
+        "scene_date": "2023-11-13",
+        "item_id": "20231113_174356_82_24bb",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.82,
+        "dy_m": -1.65,
+        "shift_m": 1.84,
+        "shift_px": 0.61,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3697739,
+            33.1773164
+          ],
+          [
+            -117.3695513,
+            33.1769451
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_07",
+        "transect_id": "CA_S017_T045",
+        "scene_date": "2023-11-14",
+        "item_id": "20231114_174238_33_2429",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.82,
+        "dy_m": 0.8,
+        "shift_m": 1.15,
+        "shift_px": 0.38,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.370983,
+            33.178771
+          ],
+          [
+            -117.3707629,
+            33.1789528
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_08",
+        "transect_id": "CA_S017_T047",
+        "scene_date": "2023-11-17",
+        "item_id": "20231117_174303_13_24bf",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.43,
+        "dy_m": 0.33,
+        "shift_m": 0.54,
+        "shift_px": 0.18,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3722341,
+            33.1802035
+          ],
+          [
+            -117.3721186,
+            33.1802782
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_09",
+        "transect_id": "CA_S017_T049",
+        "scene_date": "2023-12-14",
+        "item_id": "20231214_174200_70_24b3",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -0.75,
+        "dy_m": -0.77,
+        "shift_m": 1.07,
+        "shift_px": 0.36,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3734621,
+            33.1816579
+          ],
+          [
+            -117.3736619,
+            33.1814836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_10",
+        "transect_id": "CA_S017_T051",
+        "scene_date": "2023-12-14",
+        "item_id": "20231214_174202_89_24b3",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -5.79,
+        "dy_m": 0.32,
+        "shift_m": 5.8,
+        "shift_px": 1.93,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3747359,
+            33.183083
+          ],
+          [
+            -117.3762901,
+            33.18315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_11",
+        "transect_id": "CA_S017_T053",
+        "scene_date": "2023-12-15",
+        "item_id": "20231215_174310_73_24a1",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -0.65,
+        "dy_m": -1.26,
+        "shift_m": 1.42,
+        "shift_px": 0.47,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3760464,
+            33.1844842
+          ],
+          [
+            -117.3762205,
+            33.1841996
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_12",
+        "transect_id": "CA_S017_T055",
+        "scene_date": "2023-12-15",
+        "item_id": "20231215_182352_15_2488",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.66,
+        "dy_m": 0.36,
+        "shift_m": 0.76,
+        "shift_px": 0.25,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3773444,
+            33.185892
+          ],
+          [
+            -117.3771668,
+            33.1859744
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_13",
+        "transect_id": "CA_S017_T057",
+        "scene_date": "2023-12-17",
+        "item_id": "20231217_174525_58_24d0",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.03,
+        "dy_m": 7.73,
+        "shift_m": 7.8,
+        "shift_px": 2.6,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3784955,
+            33.1873898
+          ],
+          [
+            -117.3787782,
+            33.189133
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_14",
+        "transect_id": "CA_S017_T059",
+        "scene_date": "2024-01-30",
+        "item_id": "20240130_182930_49_247c",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.35,
+        "dy_m": -0.72,
+        "shift_m": 0.8,
+        "shift_px": 0.27,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3797132,
+            33.188851
+          ],
+          [
+            -117.3796196,
+            33.1886895
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_15",
+        "transect_id": "CA_S017_T061",
+        "scene_date": "2024-02-10",
+        "item_id": "20240210_183313_78_2446",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.24,
+        "dy_m": 0.57,
+        "shift_m": 1.37,
+        "shift_px": 0.46,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3809118,
+            33.1903291
+          ],
+          [
+            -117.3812462,
+            33.1904575
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_16",
+        "transect_id": "CA_S017_T063",
+        "scene_date": "2024-02-15",
+        "item_id": "20240215_174727_20_242e",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.84,
+        "dy_m": 0.72,
+        "shift_m": 1.11,
+        "shift_px": 0.37,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3821228,
+            33.1918207
+          ],
+          [
+            -117.3818972,
+            33.1919836
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_17",
+        "transect_id": "CA_S017_T065",
+        "scene_date": "2024-02-23",
+        "item_id": "20240223_174438_71_24b3",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.85,
+        "dy_m": -1.24,
+        "shift_m": 1.51,
+        "shift_px": 0.5,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3833685,
+            33.1932862
+          ],
+          [
+            -117.3831402,
+            33.1930063
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_18",
+        "transect_id": "CA_S018_T000",
+        "scene_date": "2024-02-23",
+        "item_id": "20240223_183135_71_2461",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -0.57,
+        "dy_m": 1.19,
+        "shift_m": 1.32,
+        "shift_px": 0.44,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3846486,
+            33.1945674
+          ],
+          [
+            -117.3848038,
+            33.1948353
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_19",
+        "transect_id": "CA_S018_T002",
+        "scene_date": "2024-03-16",
+        "item_id": "20240316_183813_68_247d",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -7.02,
+        "dy_m": -0.52,
+        "shift_m": 7.04,
+        "shift_px": 2.35,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3857823,
+            33.1960895
+          ],
+          [
+            -117.3876651,
+            33.1959671
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_20",
+        "transect_id": "CA_S018_T004",
+        "scene_date": "2024-03-19",
+        "item_id": "20240319_174429_68_24b5",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.82,
+        "dy_m": -1.29,
+        "shift_m": 1.53,
+        "shift_px": 0.51,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3870101,
+            33.1975926
+          ],
+          [
+            -117.3867891,
+            33.1973026
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_21",
+        "transect_id": "CA_S018_T006",
+        "scene_date": "2024-04-07",
+        "item_id": "20240407_175546_66_2439",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.74,
+        "dy_m": -10.04,
+        "shift_m": 10.07,
+        "shift_px": 3.36,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3882667,
+            33.1990741
+          ],
+          [
+            -117.3880573,
+            33.1968103
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_22",
+        "transect_id": "CA_S018_T008",
+        "scene_date": "2023-10-04",
+        "item_id": "20231004_173923_19_2451",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.03,
+        "dy_m": 1.46,
+        "shift_m": 1.78,
+        "shift_px": 0.59,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3899656,
+            33.2002078
+          ],
+          [
+            -117.3902428,
+            33.2005354
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_23",
+        "transect_id": "CA_S018_T010",
+        "scene_date": "2023-10-06",
+        "item_id": "20231006_174312_85_24d0",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -0.51,
+        "dy_m": 0.19,
+        "shift_m": 0.54,
+        "shift_px": 0.18,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3893265,
+            33.2033351
+          ],
+          [
+            -117.3894627,
+            33.2033779
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_24",
+        "transect_id": "CA_S019_T000",
+        "scene_date": "2023-10-10",
+        "item_id": "20231010_174216_02_24ce",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.65,
+        "dy_m": -1.05,
+        "shift_m": 1.23,
+        "shift_px": 0.41,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3921283,
+            33.2032965
+          ],
+          [
+            -117.3919537,
+            33.2030598
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_25",
+        "transect_id": "CA_S019_T002",
+        "scene_date": "2023-10-26",
+        "item_id": "20231026_174257_04_24d0",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.4,
+        "dy_m": 0.87,
+        "shift_m": 1.65,
+        "shift_px": 0.55,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3934442,
+            33.2047494
+          ],
+          [
+            -117.3938203,
+            33.2049454
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_26",
+        "transect_id": "CA_S019_T004",
+        "scene_date": "2023-11-09",
+        "item_id": "20231109_182245_90_249c",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": -1.11,
+        "dy_m": 1.29,
+        "shift_m": 1.7,
+        "shift_px": 0.57,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3947232,
+            33.2064133
+          ],
+          [
+            -117.3950234,
+            33.2067023
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "AROSICS_27",
+        "transect_id": "CA_S019_T006",
+        "scene_date": "2023-11-13",
+        "item_id": "20231113_174356_82_24bb",
+        "feature_type": "Back-beach Urban / Seawall Land Mask (NDWI <= 0)",
+        "dx_m": 0.82,
+        "dy_m": -1.65,
+        "shift_m": 1.84,
+        "shift_px": 0.61,
+        "ssim_after": 0.985,
+        "method": "AROSICS_COREG"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -117.3966652,
+            33.2073203
+          ],
+          [
+            -117.3964424,
+            33.206949
+          ]
+        ]
+      }
+    }
+  ]
+}

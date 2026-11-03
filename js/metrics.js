@@ -83,25 +83,26 @@ class MetricsDashboard {
             data: {
                 labels: [
                     '0. Baseline (Global Otsu)',
-                    '1A. + Slope Clamp (tan β ≥ 0.02)',
-                    '1B/C. + ±50m Ref Buffer & Foam Mask'
+                    '1. Step 1 (CoastSat Corridor + Foam Mask)',
+                    '2. Step 2 (+ Local AROSICS Coreg)',
+                    '3/4. Step 3/4 (+ CDIP 045 Wave & CoastSat.slope)'
                 ],
                 datasets: [
                     {
                         label: 'PlanetScope (3m) RMSE (m)',
-                        data: [71.91, 62.42, 20.07],
+                        data: [71.91, 20.07, 19.61, 16.71],
                         backgroundColor: '#005A9C',
                         borderRadius: 4
                     },
                     {
                         label: 'Sentinel-2 (10m) RMSE (m)',
-                        data: [40.72, 31.81, 19.08],
+                        data: [40.72, 19.08, 19.08, 12.45],
                         backgroundColor: '#00b5d8',
                         borderRadius: 4
                     },
                     {
                         label: 'Landsat 30m CA Lit. Benchmark',
-                        data: [24.5, 24.5, 24.5],
+                        data: [24.5, 24.5, 24.5, 24.5],
                         backgroundColor: '#cbd5e0',
                         borderRadius: 4
                     }
@@ -339,11 +340,11 @@ class MetricsDashboard {
         if (rtkTbody) {
             const psBySurvey = {};
             (prof.ps_observations || []).forEach(p => {
-                psBySurvey[p.survey_date] = p;
+                if (p.survey_date) psBySurvey[p.survey_date] = p;
             });
             const s2BySurvey = {};
             (prof.s2_observations || []).forEach(s => {
-                s2BySurvey[s.survey_date] = s;
+                if (s.survey_date) s2BySurvey[s.survey_date] = s;
             });
 
             if (!prof.rtk_surveys || prof.rtk_surveys.length === 0) {
@@ -354,10 +355,10 @@ class MetricsDashboard {
                         const psMatch = psBySurvey[r.survey_date];
                         const s2Match = s2BySurvey[r.survey_date];
                         const psText = psMatch
-                            ? `${psMatch.x_mhw_m} m <small>(${psMatch.res_mhw_m > 0 ? '+' : ''}${psMatch.res_mhw_m} m)</small>`
+                            ? `${psMatch.x_mhw_m} m <small>(${psMatch.res_mhw_m > 0 ? '+' : ''}${psMatch.res_mhw_m} m, ${psMatch.sat_date.slice(5)})</small>`
                             : '—';
                         const s2Text = s2Match
-                            ? `${s2Match.x_mhw_m} m <small>(${s2Match.res_mhw_m > 0 ? '+' : ''}${s2Match.res_mhw_m} m)</small>`
+                            ? `${s2Match.x_mhw_m} m <small>(${s2Match.res_mhw_m > 0 ? '+' : ''}${s2Match.res_mhw_m} m, ${s2Match.sat_date.slice(5)})</small>`
                             : '—';
                         return `
                         <tr>

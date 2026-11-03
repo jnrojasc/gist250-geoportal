@@ -11,7 +11,8 @@ class DataFetcher {
     }
 
     async fetchJson(relativePath) {
-        const response = await fetch(`${this.baseUrl}${relativePath}`);
+        const sep = relativePath.includes('?') ? '&' : '?';
+        const response = await fetch(`${this.baseUrl}${relativePath}${sep}v=4.0.0`, { cache: 'no-store' });
         if (!response.ok) throw new Error(`HTTP ${response.status} for ${relativePath}`);
         return await response.json();
     }

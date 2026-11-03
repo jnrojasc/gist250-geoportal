@@ -1,0 +1,68 @@
+{
+  "step": 1,
+  "title": "Acquire + Screen (Planet API & UDM2 Cloud/Haze Audit)",
+  "monthly_usable_days": [
+    {
+      "month": "2023-10",
+      "ps_scene_usable_days": 11,
+      "ps_estimate_usable_days": 6,
+      "s2_usable_days": 3,
+      "landsat_est_usable_days": 1
+    },
+    {
+      "month": "2023-11",
+      "ps_scene_usable_days": 9,
+      "ps_estimate_usable_days": 5,
+      "s2_usable_days": 5,
+      "landsat_est_usable_days": 2
+    },
+    {
+      "month": "2023-12",
+      "ps_scene_usable_days": 12,
+      "ps_estimate_usable_days": 8,
+      "s2_usable_days": 3,
+      "landsat_est_usable_days": 1
+    },
+    {
+      "month": "2024-01",
+      "ps_scene_usable_days": 7,
+      "ps_estimate_usable_days": 6,
+      "s2_usable_days": 4,
+      "landsat_est_usable_days": 2
+    },
+    {
+      "month": "2024-02",
+      "ps_scene_usable_days": 7,
+      "ps_estimate_usable_days": 4,
+      "s2_usable_days": 5,
+      "landsat_est_usable_days": 2
+    },
+    {
+      "month": "2024-03",
+      "ps_scene_usable_days": 10,
+      "ps_estimate_usable_days": 9,
+      "s2_usable_days": 3,
+      "landsat_est_usable_days": 1
+    },
+    {
+      "month": "2024-04",
+      "ps_scene_usable_days": 6,
+      "ps_estimate_usable_days": 3,
+      "s2_usable_days": 3,
+      "landsat_est_usable_days": 1
+    }
+  ],
+  "screening_audit": {
+    "total_scenes": 40,
+    "human_usable_count": 26,
+    "algo_usable_count": 26,
+    "tp": 26,
+    "tn": 14,
+    "fp": 0,
+    "fn": 0,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  }
+}
