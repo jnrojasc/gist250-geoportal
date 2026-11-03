@@ -42,30 +42,39 @@ class GeoportalMap {
         this.activeProductGroup = L.layerGroup().addTo(this.map);
         this.selectedTransectHighlight = L.layerGroup().addTo(this.map);
 
-        // Georeferenced Satellite Sensor Overlays (PlanetScope 3m Full & ROI, Sentinel-2 10m Full, Landsat 30m Full)
+        // Dynamic Date-Matched Satellite Overlays across all 6 Scripps RTK-GPS Survey Windows
+        this.satDatesMeta = {
+            '2023-11-26': { ps_date: '2023-11-17', s2_date: '2023-11-24', landsat_date: '2023-11-02', shift_m: 0.54 },
+            '2023-12-26': { ps_date: '2023-12-17', s2_date: '2023-12-24', landsat_date: '2023-12-28', shift_m: 1.92 },
+            '2024-01-25': { ps_date: '2024-01-30', s2_date: '2024-01-23', landsat_date: '2024-01-29', shift_m: 0.80 },
+            '2024-02-09': { ps_date: '2024-02-10', s2_date: '2024-02-12', landsat_date: '2024-02-22', shift_m: 1.37 },
+            '2024-03-08': { ps_date: '2024-03-16', s2_date: '2024-03-08', landsat_date: '2024-03-09', shift_m: 2.15 },
+            '2024-04-05': { ps_date: '2024-04-07', s2_date: '2024-04-07', landsat_date: '2024-04-02', shift_m: 1.84 }
+        };
+
         this.satOverlays = {
             ps_visible_full: L.imageOverlay(
-                'assets/rasters/ps_3m_visible_full.png',
+                'assets/rasters/ps_3m_visible_full_2024-02-09.png',
                 [[33.165145, -117.410889], [33.211116, -117.355957]],
                 { opacity: 0.98, interactive: false }
             ),
             ps_aligned: L.imageOverlay(
-                'assets/rasters/ps_3m_rgb_aligned.png',
+                'assets/rasters/ps_3m_rgb_aligned_2024-02-09.png',
                 [[33.165865, -117.402214], [33.210129, -117.359789]],
                 { opacity: 0.96, interactive: false }
             ),
             ps_raw: L.imageOverlay(
-                'assets/rasters/ps_3m_rgb_raw_unaligned.png',
+                'assets/rasters/ps_3m_rgb_raw_2024-02-09.png',
                 [[33.165865, -117.402214], [33.210129, -117.359789]],
                 { opacity: 0.96, interactive: false }
             ),
             s2_ref: L.imageOverlay(
-                'assets/rasters/s2_10m_rgb_ref.png',
+                'assets/rasters/s2_10m_rgb_2024-02-09.png',
                 [[33.165837, -117.402278], [33.210129, -117.359738]],
                 { opacity: 0.98, interactive: false }
             ),
             landsat_30m: L.imageOverlay(
-                'assets/rasters/landsat_30m_rgb.png',
+                'assets/rasters/landsat_30m_rgb_2024-02-09.png',
                 [[33.165746, -117.402278], [33.210130, -117.359647]],
                 { opacity: 0.98, interactive: false }
             )
@@ -80,11 +89,11 @@ class GeoportalMap {
         const overlayMaps = {
             '📏 USGS Baseline Transects (55)': this.baseTransectsLayer,
             '🎯 Active Step Geographical Product': this.activeProductGroup,
-            '🛰️ PlanetScope 3m (Full Visible Scene — Feb 10, 2024)': this.satOverlays.ps_visible_full,
-            '🛰️ Landsat 8/9 30m (Full Visible Scene — Unprocessed)': this.satOverlays.landsat_30m,
-            '🛰️ Sentinel-2 10m (Full Visible Scene — Feb 12, 2024)': this.satOverlays.s2_ref,
-            '🎯 PlanetScope 3m ROI Chip (AROSICS Aligned |dr|=1.86m)': this.satOverlays.ps_aligned,
-            '⚠️ PlanetScope 3m ROI Chip (Before AROSICS Jitter)': this.satOverlays.ps_raw
+            '🛰️ PlanetScope 3m (Full Visible Scene — Dynamic Date)': this.satOverlays.ps_visible_full,
+            '🛰️ Landsat 8/9 30m (Full Visible Scene — Dynamic Date)': this.satOverlays.landsat_30m,
+            '🛰️ Sentinel-2 10m (Full Visible Scene — Dynamic Date)': this.satOverlays.s2_ref,
+            '🎯 PlanetScope 3m ROI Chip (AROSICS Aligned — Dynamic Date)': this.satOverlays.ps_aligned,
+            '⚠️ PlanetScope 3m ROI Chip (Before AROSICS Jitter — Dynamic Date)': this.satOverlays.ps_raw
         };
 
         L.control.layers(baseMaps, overlayMaps, { position: 'topleft' }).addTo(this.map);
@@ -104,8 +113,26 @@ class GeoportalMap {
         window.addEventListener('resize', () => { if (this.map) this.map.invalidateSize(); });
     }
 
+    updateSatelliteUrlsForDate(surveyDate) {
+        if (!this.satOverlays || !this.satDatesMeta) return;
+        const winKey = (surveyDate && this.satDatesMeta[surveyDate]) ? surveyDate : '2024-02-09';
+        const info = this.satDatesMeta[winKey];
+
+        this.satOverlays.ps_visible_full.setUrl(`assets/rasters/ps_3m_visible_full_${winKey}.png`);
+        this.satOverlays.ps_aligned.setUrl(`assets/rasters/ps_3m_rgb_aligned_${winKey}.png`);
+        this.satOverlays.ps_raw.setUrl(`assets/rasters/ps_3m_rgb_raw_${winKey}.png`);
+        this.satOverlays.s2_ref.setUrl(`assets/rasters/s2_10m_rgb_${winKey}.png`);
+        this.satOverlays.landsat_30m.setUrl(`assets/rasters/landsat_30m_rgb_${winKey}.png`);
+
+        const badge = document.getElementById('sat-date-badge');
+        if (badge && info) {
+            badge.textContent = `📅 Scene: PS ${info.ps_date} | S2 ${info.s2_date} | L8/9 ${info.landsat_date}`;
+        }
+    }
+
     setSatelliteOverlay(satKey) {
         if (!this.satOverlays) return;
+        this.updateSatelliteUrlsForDate(this.currentSurveyDate);
         Object.values(this.satOverlays).forEach(layer => {
             if (this.map.hasLayer(layer)) this.map.removeLayer(layer);
         });
@@ -166,6 +193,7 @@ class GeoportalMap {
     activateStepProduct(stepObj, allData, surveyDateFilter = null) {
         if (!stepObj || !allData) return;
         if (surveyDateFilter) this.currentSurveyDate = surveyDateFilter;
+        this.updateSatelliteUrlsForDate(this.currentSurveyDate);
 
         this.activeProductGroup.clearLayers();
         const stepNum = stepObj.number;

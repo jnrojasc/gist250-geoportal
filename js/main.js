@@ -76,13 +76,14 @@ class GeoportalApp {
             });
         });
 
-        // Survey Date selector for Step 6 validation overlay
+        // Survey Date selector for Step 6 validation overlay & dynamic satellite imagery
         const surveySel = document.getElementById('survey-date-select');
         if (surveySel) {
             surveySel.addEventListener('change', e => {
                 this.currentSurveyDate = e.target.value;
-                this.pipelineExplainer.setActiveStep(6);
-                this.syncQuickStepButtons(6);
+                const activeStep = this.pipelineExplainer.activeStep || 6;
+                this.pipelineExplainer.setActiveStep(activeStep);
+                this.syncQuickStepButtons(activeStep);
             });
         }
 

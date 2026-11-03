@@ -220,6 +220,18 @@ html, body {
     font-weight: 700;
 }
 
+.sat-date-badge {
+    margin-left: auto;
+    color: #FFCC00;
+    font-size: 0.71rem;
+    font-weight: 600;
+    background: rgba(255, 204, 0, 0.12);
+    border: 1px solid rgba(255, 204, 0, 0.35);
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
 /* Pixelated rendering option for Landsat 30m / S2 10m comparison */
 .leaflet-image-layer {
     image-rendering: pixelated;

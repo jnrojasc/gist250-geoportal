@@ -1,0 +1,452 @@
+{
+  "2023-11-26": {
+    "survey_date": "2023-11-26",
+    "ps_date": "2023-11-17",
+    "ps_item_id": "20231117_174303_13_24bf",
+    "ps_shift_m": 0.54,
+    "s2_date": "2023-11-24",
+    "landsat_date": "2023-11-02",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2023-11-26.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2023-11-26.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2023-11-26.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2023-11-26.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2023-11-26.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  },
+  "2023-12-26": {
+    "survey_date": "2023-12-26",
+    "ps_date": "2023-12-17",
+    "ps_item_id": "20231217_174525_58_24d0",
+    "ps_shift_m": 7.8,
+    "s2_date": "2023-12-24",
+    "landsat_date": "2023-12-28",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2023-12-26.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2023-12-26.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2023-12-26.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2023-12-26.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2023-12-26.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  },
+  "2024-01-25": {
+    "survey_date": "2024-01-25",
+    "ps_date": "2024-01-30",
+    "ps_item_id": "20240130_182930_49_247c",
+    "ps_shift_m": 0.8,
+    "s2_date": "2024-01-23",
+    "landsat_date": "2024-01-29",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2024-01-25.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2024-01-25.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2024-01-25.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2024-01-25.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2024-01-25.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  },
+  "2024-02-09": {
+    "survey_date": "2024-02-09",
+    "ps_date": "2024-02-10",
+    "ps_item_id": "20240210_183313_78_2446",
+    "ps_shift_m": 1.37,
+    "s2_date": "2024-02-12",
+    "landsat_date": "2024-02-22",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2024-02-09.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2024-02-09.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2024-02-09.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2024-02-09.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2024-02-09.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  },
+  "2024-03-08": {
+    "survey_date": "2024-03-08",
+    "ps_date": "2024-03-16",
+    "ps_item_id": "20240316_183813_68_247d",
+    "ps_shift_m": 7.04,
+    "s2_date": "2024-03-08",
+    "landsat_date": "2024-03-09",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2024-03-08.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2024-03-08.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2024-03-08.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2024-03-08.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2024-03-08.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  },
+  "2024-04-05": {
+    "survey_date": "2024-04-05",
+    "ps_date": "2024-04-07",
+    "ps_item_id": "20240407_175546_66_2439",
+    "ps_shift_m": 10.07,
+    "s2_date": "2024-04-07",
+    "landsat_date": "2024-04-02",
+    "layers": {
+      "ps_visible_full": {
+        "file": "assets/rasters/ps_3m_visible_full_2024-04-05.png",
+        "bounds": [
+          [
+            33.165145,
+            -117.410889
+          ],
+          [
+            33.211116,
+            -117.355957
+          ]
+        ]
+      },
+      "ps_aligned": {
+        "file": "assets/rasters/ps_3m_rgb_aligned_2024-04-05.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "ps_raw": {
+        "file": "assets/rasters/ps_3m_rgb_raw_2024-04-05.png",
+        "bounds": [
+          [
+            33.165865,
+            -117.402214
+          ],
+          [
+            33.210129,
+            -117.359789
+          ]
+        ]
+      },
+      "s2_ref": {
+        "file": "assets/rasters/s2_10m_rgb_2024-04-05.png",
+        "bounds": [
+          [
+            33.165837,
+            -117.402278
+          ],
+          [
+            33.210129,
+            -117.359738
+          ]
+        ]
+      },
+      "landsat_30m": {
+        "file": "assets/rasters/landsat_30m_rgb_2024-04-05.png",
+        "bounds": [
+          [
+            33.165746,
+            -117.402278
+          ],
+          [
+            33.21013,
+            -117.359647
+          ]
+        ]
+      }
+    }
+  }
+}
