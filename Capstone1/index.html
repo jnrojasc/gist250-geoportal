@@ -86,6 +86,16 @@
                 <button class="quick-step-btn" data-step="8" title="Step 8: Coastal Hazard Hotspots">8. Hotspots</button>
             </div>
 
+            <!-- Floating Satellite Sensor & AROSICS Co-Registration Basemap Bar -->
+            <div class="map-sat-bar" id="map-sat-bar">
+                <span class="sat-bar-label">🛰️ Sensor Imagery:</span>
+                <button class="sat-overlay-btn active" data-sat="none" title="Show High-Resolution Esri Aerial Basemap Only">🗺️ Esri Aerial Only</button>
+                <button class="sat-overlay-btn" data-sat="ps_aligned" title="PlanetScope SuperDove 3m True-Color (Feb 10, 2024 — After Local AROSICS Alignment |dr|=1.86m)">🛰️ Planet 3m (AROSICS Aligned)</button>
+                <button class="sat-overlay-btn" data-sat="ps_raw" title="PlanetScope SuperDove 3m Before AROSICS Alignment (Shows Raw Inter-Satellite Jitter)">⚠️ Planet 3m (Before AROSICS Jitter)</button>
+                <button class="sat-overlay-btn" data-sat="s2_ref" title="Sentinel-2 L2A 10m Orthorectified Reference Base (Feb 12, 2024)">🛰️ Sentinel-2 (10m Ref Base)</button>
+                <button class="sat-overlay-btn" data-sat="landsat_30m" title="Landsat 8/9 30m True-Color Over Oceanside ROI (Shows Coarse 30m Mixed Pixels)">🛰️ Landsat 8/9 (30m Pixel)</button>
+            </div>
+
             <!-- Floating Active Geographical Product Banner & Legend -->
             <div class="map-product-banner" id="map-product-banner">
                 <div class="banner-top-row">
@@ -266,13 +276,14 @@
                         <h4>Validation &amp; RTK Beach Profile QA Figures</h4>
                         <select id="qa-figure-select">
                             <option value="fig_gee_vs_local_coastsat_comparison.png" data-caption="GEE 1D Hybrid vs. Local Native 2D CoastSat & CoastSat.PlanetScope ('As-Is'): S2 RMSE drops to 11.94 m (MAE 7.42 m) and PS RMSE drops to 18.83 m (MAE 12.80 m, Bias +2.77 m).">1. GEE 1D vs. Local Native 2D CoastSat Comparison (As-Is)</option>
-                            <option value="fig_arosics_shift_vectors.png" data-caption="Step 2 Local AROSICS Sub-Pixel Co-Registration across 28 PlanetScope 3 m chips (mean shift |dr| = 1.86 m).">2. Step 2 AROSICS Co-Registration Shift Vectors</option>
-                            <option value="oceanside_multisensor_events_v4_timeseries.png" data-caption="Multi-Sensor Storm Retreat & Recovery Time Series with CDIP 045 Significant Wave Height (Hs) and Stockdon Runup (R2).">3. Multi-Sensor Storm Events + CDIP Waves</option>
-                            <option value="multisensor_v2_coastsat_scatter.png" data-caption="Step 1 MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) & PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.">4. Step 1 Multi-Sensor vs. RTK Scatter (v2)</option>
-                            <option value="qa_profiles_20240209.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW (1.344 m) intersections on Feb 9, 2024.">5. Scripps RTK Profiles — Feb 9, 2024</option>
-                            <option value="qa_profiles_20240405.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Apr 5, 2024.">6. Scripps RTK Profiles — Apr 5, 2024</option>
-                            <option value="qa_profiles_20231126.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Nov 26, 2023.">7. Scripps RTK Profiles — Nov 26, 2023</option>
-                            <option value="fig_udm2_usable_days_scene.png" data-caption="PlanetScope UDM2 empirical cloud/marine-layer usability audit across San Diego benchmark sites.">8. UDM2 Usable Days Audit</option>
+                            <option value="fig_step2_coreg_planet_s2_landsat.png" data-caption="Oceanside Pier & Seawall: Landsat 30m vs. Sentinel-2 10m vs. PlanetScope 3m + Step 2 Local AROSICS Co-Registration (Red = Raw Jitter, Cyan = Aligned, |dr| = 1.86 m).">2. Step 2: Planet (3m) vs. S2 (10m) vs. Landsat (30m) + AROSICS</option>
+                            <option value="fig_arosics_shift_vectors.png" data-caption="Step 2 Local AROSICS Sub-Pixel Co-Registration across 28 PlanetScope 3 m chips (mean shift |dr| = 1.86 m).">3. Step 2 AROSICS Co-Registration Shift Vectors</option>
+                            <option value="oceanside_multisensor_events_v4_timeseries.png" data-caption="Multi-Sensor Storm Retreat & Recovery Time Series with CDIP 045 Significant Wave Height (Hs) and Stockdon Runup (R2).">4. Multi-Sensor Storm Events + CDIP Waves</option>
+                            <option value="multisensor_v2_coastsat_scatter.png" data-caption="Step 1 MHW validation scatter: Sentinel-2 v2 (RMSE 19.08 m) & PlanetScope v2 (RMSE 20.07 m) vs. Scripps RTK-GPS.">5. Step 1 Multi-Sensor vs. RTK Scatter (v2)</option>
+                            <option value="qa_profiles_20240209.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW (1.344 m) intersections on Feb 9, 2024.">6. Scripps RTK Profiles — Feb 9, 2024</option>
+                            <option value="qa_profiles_20240405.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Apr 5, 2024.">7. Scripps RTK Profiles — Apr 5, 2024</option>
+                            <option value="qa_profiles_20231126.png" data-caption="Scripps RTK-GPS cross-shore elevation profiles (NAVD88) and MHW intersections on Nov 26, 2023.">8. Scripps RTK Profiles — Nov 26, 2023</option>
+                            <option value="fig_udm2_usable_days_scene.png" data-caption="PlanetScope UDM2 empirical cloud/marine-layer usability audit across San Diego benchmark sites.">9. UDM2 Usable Days Audit</option>
                         </select>
                     </div>
                     <div class="qa-figure-box">

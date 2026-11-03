@@ -42,6 +42,31 @@ class GeoportalMap {
         this.activeProductGroup = L.layerGroup().addTo(this.map);
         this.selectedTransectHighlight = L.layerGroup().addTo(this.map);
 
+        // Georeferenced Satellite Sensor Overlays (PlanetScope 3m, Sentinel-2 10m, Landsat 30m)
+        this.satOverlays = {
+            ps_aligned: L.imageOverlay(
+                'assets/rasters/ps_3m_rgb_aligned.png',
+                [[33.166686, -117.400761], [33.209177, -117.361559]],
+                { opacity: 0.96, interactive: false }
+            ),
+            ps_raw: L.imageOverlay(
+                'assets/rasters/ps_3m_rgb_raw_unaligned.png',
+                [[33.166686, -117.400761], [33.209177, -117.361559]],
+                { opacity: 0.96, interactive: false }
+            ),
+            s2_ref: L.imageOverlay(
+                'assets/rasters/s2_10m_rgb_ref.png',
+                [[33.166640, -117.400772], [33.209222, -117.361585]],
+                { opacity: 0.96, interactive: false }
+            ),
+            landsat_30m: L.imageOverlay(
+                'assets/rasters/landsat_30m_rgb.png',
+                [[33.166539, -117.400987], [33.209312, -117.361414]],
+                { opacity: 0.96, interactive: false }
+            )
+        };
+        this.currentSatKey = 'none';
+
         const baseMaps = {
             'Satellite (Esri World Imagery)': esriSatellite,
             'Cartographic (OpenStreetMap)': osm
@@ -49,16 +74,43 @@ class GeoportalMap {
 
         const overlayMaps = {
             '📏 USGS Baseline Transects (55)': this.baseTransectsLayer,
-            '🎯 Active Step Geographical Product': this.activeProductGroup
+            '🎯 Active Step Geographical Product': this.activeProductGroup,
+            '🛰️ PlanetScope 3m (AROSICS Aligned |dr|=1.86m)': this.satOverlays.ps_aligned,
+            '⚠️ PlanetScope 3m (Before AROSICS — Raw Jitter)': this.satOverlays.ps_raw,
+            '🛰️ Sentinel-2 10m (Orthorectified Reference)': this.satOverlays.s2_ref,
+            '🛰️ Landsat 8/9 30m (Coarse 30m Pixel)': this.satOverlays.landsat_30m
         };
 
         L.control.layers(baseMaps, overlayMaps, { position: 'topleft' }).addTo(this.map);
         L.control.scale({ imperial: true, metric: true, position: 'bottomleft' }).addTo(this.map);
 
+        // Bind floating Satellite Imagery Switcher bar buttons
+        document.querySelectorAll('.sat-overlay-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const satKey = btn.getAttribute('data-sat');
+                this.setSatelliteOverlay(satKey);
+            });
+        });
+
         // Force Leaflet recalculation after DOM and flex render
         setTimeout(() => { if (this.map) this.map.invalidateSize(); }, 200);
         setTimeout(() => { if (this.map) this.map.invalidateSize(); }, 600);
         window.addEventListener('resize', () => { if (this.map) this.map.invalidateSize(); });
+    }
+
+    setSatelliteOverlay(satKey) {
+        if (!this.satOverlays) return;
+        Object.values(this.satOverlays).forEach(layer => {
+            if (this.map.hasLayer(layer)) this.map.removeLayer(layer);
+        });
+        this.currentSatKey = satKey || 'none';
+        if (this.currentSatKey !== 'none' && this.satOverlays[this.currentSatKey]) {
+            this.satOverlays[this.currentSatKey].addTo(this.map);
+            this.satOverlays[this.currentSatKey].bringToBack();
+        }
+        document.querySelectorAll('.sat-overlay-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.getAttribute('data-sat') === this.currentSatKey);
+        });
     }
 
     renderBaseTransects(transectsGeoJSON) {
@@ -160,6 +212,10 @@ class GeoportalMap {
                 <span class="legend-item"><i style="background:rgba(220,53,69,0.5);border:1px dashed #dc3545"></i> UDM2 Marine Layer Audit Zone</span>
             `;
         } else if (stepNum === 2) {
+            // Automatically display PlanetScope 3m (AROSICS Aligned) when entering Step 2 if no sat overlay active
+            if (this.currentSatKey === 'none') {
+                this.setSatelliteOverlay('ps_aligned');
+            }
             // Step 2: AROSICS Local Co-registration Tie-Point Vectors
             if (allData.step2Coreg) {
                 const coregLayer = L.geoJSON(allData.step2Coreg, {
