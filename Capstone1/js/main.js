@@ -6,7 +6,6 @@
 class GeoportalApp {
     constructor() {
         this.config = {
-            geeProjectId: 'gen-lang-client-247188733',
             location: {
                 name: 'Oceanside, California',
                 lat: 33.189,
@@ -45,7 +44,7 @@ class GeoportalApp {
         this.metricsDashboard.init();
 
         // 4. Initialize Data Fetcher
-        this.dataFetcher = new DataFetcher(this.config.geeProjectId);
+        this.dataFetcher = new DataFetcher();
 
         // 5. Setup UI Listeners (Tabs, Dropdowns, Buttons)
         this.initEventListeners();

@@ -2,7 +2,7 @@
   "ablation_metrics": [
     {
       "sensor": "Sentinel-2 (10m)",
-      "stage": "0. GEE Baseline v1 (1D crossings[0] + Global Otsu)",
+      "stage": "0. Unbounded Baseline (Phase 1)",
       "n_pairs": 192,
       "bias_raw_m": 14.33,
       "rmse_raw_m": 35.43,
@@ -12,7 +12,7 @@
     },
     {
       "sensor": "Sentinel-2 (10m)",
-      "stage": "1. GEE Hybrid 1D Corridor v2 (\u00b145m Corridor + Tide-Only)",
+      "stage": "1. Reference Corridor \u00b145m (Step 1)",
       "n_pairs": 184,
       "bias_raw_m": 4.73,
       "rmse_raw_m": 16.58,
@@ -42,7 +42,7 @@
     },
     {
       "sensor": "PlanetScope (3m)",
-      "stage": "0. GEE Baseline v1 (1D crossings[0] + Global Otsu)",
+      "stage": "0. Unbounded Baseline (Phase 1)",
       "n_pairs": 88,
       "bias_raw_m": 14.12,
       "rmse_raw_m": 64.79,
@@ -52,7 +52,7 @@
     },
     {
       "sensor": "PlanetScope (3m)",
-      "stage": "1. GEE Hybrid 1D Corridor v2 (\u00b145m Corridor + Tide-Only)",
+      "stage": "1. Reference Corridor \u00b145m (Step 1)",
       "n_pairs": 78,
       "bias_raw_m": 15.14,
       "rmse_raw_m": 27.56,
@@ -114,7 +114,7 @@
       "sensor": "PlanetScope SuperDove (Local Native CoastSat.PlanetScope 2D As-Is)",
       "pixel_size_m": 3.0,
       "revisit_days": 1,
-      "usable_scenes_winter": "28 scenes / 24 dates (56 in GEE)",
+      "usable_scenes_winter": "28 scenes / 24 dates",
       "oceanside_rmse_m": "18.83 m (MAE 12.80 m, Bias +2.77 m)",
       "role": "Native 2D CoastSat.PlanetScope (4-class + 1:1 sl_extract + Marching Squares >=30m + \u00b125m intersection) + AROSICS",
       "limitation": "865 nm NIR lacks SWIR band, remaining sensitive to low-tide (-0.08 m) shallow bottom reflectance on submerged bars."

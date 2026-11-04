@@ -82,10 +82,10 @@ class MetricsDashboard {
             type: 'bar',
             data: {
                 labels: [
-                    '0. GEE Baseline v1 (1D Global Otsu)',
-                    '1. GEE Hybrid 1D Corridor v2 (±45m)',
+                    '0. Unbounded Baseline (Phase 1)',
+                    '1. Reference Corridor ±45m (Step 1)',
                     '2. Local Native 2D CoastSat (Tide-Only As-Is)',
-                    '3. Local Native 2D + CDIP 045 Wave/Slope (As-Is)'
+                    '3. Local Native 2D + CDIP Runup & Slope (As-Is)'
                 ],
                 datasets: [
                     {

@@ -4,8 +4,7 @@
  */
 
 class DataFetcher {
-    constructor(projectId = 'gen-lang-client-247188733') {
-        this.projectId = projectId;
+    constructor() {
         this.baseUrl = window.location.origin + window.location.pathname.replace(/\/index\.html$/, '');
         if (!this.baseUrl.endsWith('/')) this.baseUrl += '/';
     }
